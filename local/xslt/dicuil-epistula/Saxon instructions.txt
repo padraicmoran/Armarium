@@ -1,0 +1,23 @@
+INSTRUCTIONS
+
+1) Check XML data file in VS Code
+- Check for well-formed.
+- Check main <div> structural elements are correct: introduction (with main, bibliography), edition (include multiple type=section, named in n). 
+
+2) Check that Saxon XSLT Processor is installed.
+These notes assume it can be called directly from the command line: saxon
+Otherwise, call the Java file: e.g. java -jar path/to/saxon-he-10.jar
+Run commands in the folder containing the XSL.
+
+3) Process parts
+saxon -xsl:introduction.xsl -s:../../../public/data/dicuil-epistula.xml -o:output/content/introduction.htm
+saxon -xsl:sections.xsl -s:../../../public/data/dicuil-epistula.xml 
+saxon -xsl:edition_header.xsl -s:../../../public/data/dicuil-epistula.xml -o:output/edition_header.htm
+saxon -xsl:index_card.xsl -s:../../../public/data/dicuil-epistula.xml -o:output/index_card.htm
+saxon -xsl:metadata.xsl -s:../../../public/data/dicuil-epistula.xml -o:output/metadata.htm
+
+4) Check output files and move to edition folder
+
+--
+Manually removing white space before <note> tags:
+[\n\s]*<note>

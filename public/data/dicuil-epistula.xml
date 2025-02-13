@@ -1,0 +1,1102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+      xml:id="dicuil-epistula">
+   <teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Epistula censuum</title>
+				<author>Dicuil</author>
+            <editor>Christian G. Schweizer</editor>
+			</titleStmt>
+			<publicationStmt>
+            <publisher>Armarium</publisher>
+            <pubPlace>Galway</pubPlace>
+            <date when="2025-02-11">11 February 2025</date>
+            <idno type="DOI">10.1234/epistula-censuum.2025</idno>
+            <idno type="URL">http://armarium.universityofgalway.ie/</idno>
+            <availability status="free">
+                <p>This work is licensed under a Creative Commons Attribution 4.0 International License.</p>
+            </availability>
+			</publicationStmt>
+			<sourceDesc>
+            <msDesc n="P" xml:id="ms-P">
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <institution>Bibliothèque nationale de France</institution>
+                  <idno>NAL 1645</idno>
+               </msIdentifier>
+            </msDesc>
+			   <msDesc n="T" xml:id="ms-T">
+			      <msIdentifier>
+			         <country>France</country>
+			         <settlement>Tours</settlement>
+			         <institution>Bibliothèque municipale de Tours</institution>
+			         <idno>803 ii</idno>
+			      </msIdentifier>
+			   </msDesc>
+			</sourceDesc>
+		</fileDesc>
+      <profileDesc>
+         <abstract>
+            <p>The <title>Epistula censuum</title> (‘Letter of dues’) was written by the Irish scholar Dicuil as a ‘due’ for the Carolingian emperor Louis the Pious around March 818 CE. It is a poem on weights and measures, combined with a prosaic treatise on homonyms and synonyms.</p>
+         </abstract>
+     </profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="introduction" xml:lang="en">
+				<head>Introduction</head>
+            <div type="main">
+               <head n="1">Commentary</head>
+               <div>
+                  <head n="1.1">Acknowledgements</head>
+                  <p>This publication has emanated from research conducted with the financial support of Taighde Éireann – Research Ireland under award number GOIPD/2023/1371 in the Government of Ireland 2023 Postdoctoral Fellowship ‘Dicuil - an Irish and Carolingian Universalist and his Intellectual Legacy (DICUIL).’ I would also like to thank Pádraic Moran for his support with this digital edition and the manuscript librarians of the BnF Paris (esp. Charlotte Denoël) and the BM Tours (esp. Régis Rech) for allowing me to consult the manuscripts and take photos.
+                  </p>
+               </div>
+               <div>
+                  <head n="1.2">The text</head>
+                  <p>The <title>Epistula censuum</title> (‘Letter of dues’) is a treatise on units of measurement, with a focus on homonyms and synonyms. It was written by the Irish scholar Dicuil, who also authored several other scientific, geographical, and grammatical texts in the Frankish empire during the first quarter of the ninth century. His <title>Epistula censuum</title> can be dated to 818 CE, probably in or around March, by Dicuil's reference to the end of the twice four hundredth and twice ninth year of the conception of the Lord right at the beginning of the main text (for annunciation dating, see Dicuil, <title>De cursu</title>, III iiii, ed. and trans. <ref target="#schweizer-2023">Schweizer 2023</ref>, pp 209–10).
+                  </p>
+
+                  <p>Right after this, Dicuil speaks of the duty to bring dues to the king, which implies that the text is a further annual gift for Louis the Pious: Dicuil had highlighted clearly that the first two books of <title>De cursu solis lunaeque</title> were such gifts or dues in 814 and 815, and in 816 he had again addressed the ‘king’ in Book IIII (Dicuil, <title>De cursu</title>, ed. and trans. <ref target="#schweizer-2023">Schweizer 2023</ref>, pp 29–34 (I vi); 49–56 (I viii); 127–8 (II xiii); 237–8 (IIII iiii)). There also is a certain thematical proximity (cf., for instance, Bede's discussion of the fractions of ounces, his justification thereof, and their application to time-reckoning in his computistical textbook of 725, <title>De temporum ratione</title> iv, ed. <ref target="#jones-1943">Jones 1943</ref>, pp 184-6). This renders the <title>Epistula censuum</title> some kind of sequel to <title>De cursu solis lunaeque</title>. However, the new title, both in the table of contents and the text, shows that it is more than simply a Book VI of <title>De cursu solis lunaeque</title>, or even an appendix to it (as suggested by <ref target="#cordoliani-1960">Cordoliani 1960</ref>, p. 331, and rightly rejected by <ref target="#pabst-1994">Pabst 1994</ref>, p. 345, n. 130; see <ref target="#schweizer-2022">Schweizer 2022</ref>, pp 244-6). While units of measurement were also discussed in computistical treatises of the time, Dicuil himself noted that the topic was ‘not unrelated to grammar’ – a point that is validated by his reliance on Priscian as a principal source and his focus on homonyms and synonyms.</p>               
+
+                  <p>In a similar vein, the letter is not least a poetic exercise, with around two thirds of the text being hexameters. A key challenge was expressing the required numbers metrically. This already was a predilection of Dicuil in <title>De cursu solis lunaeque</title>, but it is also a notable feature of his stated model, the poem on weights by Remus Favinus (<ref target="#geus-2007">Geus 2007</ref>, p. 65, n. 198). This raises the question if Dicuil already knew this text or even started working on the <title>Epistula censuum</title> before 814.</p>
+                  <p xml:id="cross-reference1">Dicuil referred back to the <title>Epistula censuum</title> twice in his <title>De prima syllaba</title> of 825: he stated that he was writing this treatise on metrics ‘After speaking of the course of the Sun and Moon and writing about many weights and measures’ (<foreign>Postquam de cursu solis luneque locutus, Ponderibus multis mensuris atque notatis</foreign>, ‘Micons’ ed. <ref target="#manitius-1911-12">Manitius 1911/2</ref>, p. 125), and he justified a metrical liberty taken in the <foreign>epistola censuum</foreign> (‘Micons’ ed. Manitius 1911/2, p. 174). In the <title>Epistula censuum</title> itself, he referred back to his poem on Priscian's <title>Partitiones</title> in a hidden but unequivocal way: <ref target="#cross-reference2"><foreign>Grammaticus doc<ex>et</ex> haec immo auctor grammaticorum / Diuisum cuius nomen m<ex>et</ex>ro ante peregi</foreign></ref>. (‘A grammarian teaches these things, indeed the father of grammarians, whose divided name I have stated in metre before’). As the preceding text is based on Priscian, this refers beyond reasonable doubt to the following sentence from Dicuil's poem on Priscian's <title>Partitiones duodecim versuum Aeneidos principalium</title>: <foreign>Prisci canit pueris haec ani cuncta libellus</foreign> (‘Prisci – an's booklet recites all this for boys’; <ref target="#keil-1859">Keil 1859</ref>, iii, 390–1, here 390, is based on a better manuscript than <ref target="#dümmler-1884">Dümmler 1884</ref>, p. 667; albeit aware of Keil's edition, Dümmler apparently did not take it into account; the only substantial difference is Dümmler's consequential addition of <foreign>tales</foreign> to fill a gap in his manuscript, <ref target="https://gallica.bnf.fr/ark:/12148/btv1b8452591m/f110.item">Valenciennes, Médiathèque Simone Veil, 394 (377), f. 54v</ref>, where Keil's manuscript, <ref target="https://">Leiden, UB, Voss. Lat. Q. 33, f. 112</ref>, has a perfectly reasonable <foreign>libros</foreign>). Dicuil's cross-reference shows that he must have published the so far undated poem before the <title>Epistula</title>, and it might even indicate a temporal proximity, especially as both texts engage closely with Priscian. Again, these cross-references mostly relate the <title>Epistula</title> to Dicuil's poetic and grammatical texts.</p>
+
+                  <p>In the text, Dicuil referred to the treatise as <title>Epistula census</title>; <ref target="#vyver-1935">van de Vyver 1935</ref>, p. 32, n. 3, has pointed out that this was due to the metre, and Dicuil otherwise – in the table of contents and <title>De prima syllaba</title> – preferred <title>Epistula censuum</title>. The word <title>Epistula</title> (‘letter’, in contrast to the <foreign>libelli</foreign> – ‘booklets’ of <title>De cursu solis lunaeque</title>), might imply that Dicuil was not in the same place as Louis at that time. The lack of a clear address at the beginning of the letter or proper regards at the end, however, indicate that the word <foreign>epistula</foreign> is rather to be understood as ‘treatise’, unless these elements were omitted by the copyist.</p>
+
+                  <p>I am currently preparing a translation and analysis of the text.</p>
+               </div>
+               <div>
+                  <head n="1.3">The manuscripts</head>
+                  <p>There is one known extant manuscript of the <title>Epistula censuum</title>, <ref target="https://gallica.bnf.fr/ark:/12148/btv1b10032215p">Paris, Bibliothèque nationale de France, NAL 1645 (Libri 88), ff 7v–14v (from here: P)</ref>. P consists of two gatherings, which were removed from <ref target="https://arca.irht.cnrs.fr/ark:/63955/md89d504ss9j">Tours, Bibliothèque Municipale, 803 ii (T)</ref> by Guglielmo Libri in the 1840s. In this witness, the <title>Epistula censuum</title> is preceded by Dicuil's <title>De cursu solis lunaeque</title> (T, ff 58v–103v, and P, ff 1r–7v). At the beginning of the latter, there is a table of contents for both texts, plus Dicuil's <title>De prima syllaba</title> (825), which is not extant in these two manuscripts. Presumably, it never was included, as f. 14v of P contains considerable blank space below the end of the <title>Epistula censuum</title>. This table of contents enabled André van de Vyver to discover the ending of <title>De cursu solis lunaeque</title> and the <title>Epistula censuum</title> in P (<ref target="#vyver-1935">van de Vyver 1935</ref>, pp 25-47.</p>
+
+                  <p>T was dated to the tenth, P even to the eleventh century, until E. K. Rand suggested the end of the ninth and Bischoff even the second quarter or middle of the ninth century; since then, the ninth century is generally accepted. Rand implies Tours as the place of origin, Bischoff only (not southern) France; Godden, Jayatilaka, and Love criticise Rand's suggestion (<ref target="#delisle-1888">Delisle 1888</ref>, pp 78–9, no. XLVIII; <ref target="#dorange-1875">Dorange 1875</ref>, pp 375–6; <ref target="#collon-1900">Collon 1900</ref>, pp 604–5; <ref target="#rand-1929">Rand 1929</ref>, pp 192–3, no. 191; <ref target="#bischoff-2014">Bischoff 2014</ref>, p. 244, after no. 5110 and p. 368, nos 6141–2; <ref target="#troncarelli-1987">Troncarelli 1987</ref>, pp 194–5, no. 51; <ref target="#love-2012">Love 2012</ref>, p. 94; <ref target="http://www.mirabileweb.it/manuscript/tours-bibliothèque-municipale-803-manoscript/131845">Mirabile</ref>; <ref target="#godden-2024">Godden, Jayatilaka, Love 2024</ref>, pp ccxxix-ccxxxi, esp. p. ccxxix, n. 451).</p>               
+
+                  <p>The folios measure circa 285×195 mm. P was rebound in modern times, with paper covering some small parts of the text. Against the light, these parts can mostly still be read in situ. A detailed description and analysis of T and P can be found in my thesis (Dicuil, <title>De cursu</title>, ed. and trans. <ref target="#schweizer-2023">Schweizer 2023</ref>, pp LIX-LXXIII) and will be published elsewhere.</p>
+               </div>
+               <div>
+                  <head n="1.4">The sources and models</head>
+                  <p>Although the <title>Epistula censuum</title> has only around a tenth of the text of <title>De cursu solis lunaeque</title>, it arguably contains more direct source references: Dicuil referred to a book called <title>Calculus</title> in the table of contents, which can be identified with the <title>Calculus</title> of Victorius of Aquitaine, or, more accurately, some tables added to the <title>Calculus</title>in the manuscripts (edited in Abbo, <title>Commentary</title>, ed. <ref target="#peden-2003">Peden 2003</ref>, here pp 52-3, additional texts 8-9); he defended making a poem about units of measurement by pointing to the late ancient author Remus Favinus (ed. <ref target="#geus-2007">Geus 2007</ref>); and he accurately credited <ref target="#cross-reference28">Priscian</ref> and <ref target="#cross-reference6">Donatus</ref> in the prose part. Moreoever, he indirectly acknowledged Priscian as a central source in the metrical part, by referring to an <foreign>auctor grammaticorum</foreign> whose name he could not use in a hexameter, as discussed above. The respective text is taken from Priscian's <title>De figuris numerorum</title>, partly also known as <title>De ponderibus</title> (ed. <ref target="#passalacqua-1987">Passalacqua 1987</ref>, pp 1-18). A reference to <ref target="#cross-reference21">Varro</ref> in the same context is apparently adopted from Priscian, as well as those to <ref target="#cross-reference18">Dardanus</ref> and <ref target="#cross-reference19">Livy</ref>. In contrast to these, <ref target="#cross-reference20">Isidore of Seville, referred to as a ‘Spanish bishop’,</ref> was quite certainly direcly and repeatedly consulted by Dicuil. It is also believable that Dicuil came across a synonym for silver coins directly in the biblical epic of <ref target="#cross-reference22">Juvenus</ref>; his desire to demonstrate his wide reading and to find information he can add to the common handbooks is obvious throughout his works. His obscure references to <ref target="#cross-reference27">Seneca</ref> and <ref target="#cross-reference5">Palaemon</ref> might be related to his desire to drop interesting names, which he might have come across, for instance, in glosses to his actual sources.</p>
+               </div>
+               <div>
+                  <head n="1.5">The edition</head>
+                  <p>The text is a transcript of the only known manuscript, P (respectively T for the table of contents). The text is emended in a few cases, in which case the manuscript readings are noted in the apparatus. If in doubt, the text follows the manuscript readings. The folio numbers in P are indicated in the margin.</p>
+                  <p xml:id="cross-reference7">This is the first edition of the <title>Epistula censuum</title>. The table of contents has been transcribed before by van de Vyver (<ref target="#vyver-1935">van de Vyver 1935</ref>, p. 32), Alfred Cordoliani (<ref target="#cordoliani-1960">Cordoliani 1960</ref>, p. 327, n. 13), and in my edition of Dicuil's <title>De cursu</title> (<ref target="#schweizer-2023">Schweizer 2023</ref>, p. 7). In contrast to the latter edition, the present one does not note all variant readings in the existing transcripts. Two of van de Vyver's emendations have been adopted.</p>
+                  <p>Source and bible references, as well as cross-references to other parts of the text, are provided in footnotes. Source references are provided where Dicuil refered to sources (often without name, or with one that is mentioned by another author), or where the direct use of a source is clear and important for the understanding of a text. The individual weights, measures, homonyms, and synonyms discussed by Dicuil often occur in several older texts, which are not usually listed. They might be worth studying elsewhere nevertheless, but rather in the form of a comparative table of the units given by various authors and their specifications than by extensive notes to the edition.</p>
+               </div>
+            </div>
+            <div type="bibliography">
+               <head n="2">Bibliography</head>
+               <div>
+                  <head n="2.1">Primary sources</head>
+                  <bibl xml:id="peden-2003">Abbo of Fleury and Ramsey, <title>Commentary on the Calculus of Victorius of Aquitaine</title>, ed. A. M. Peden (Oxford, 2003).</bibl>
+                  <bibl xml:id="jones-1943">Beda, <title>Opera de temporibus</title>, ed. C. W. Jones (Cambridge, 1943).</bibl>
+                  <bibl xml:id="mayhoff-1875">C. Plinius Secundus, <title>Naturalis historiae libri XXXVII</title>, ed. K. F. T. Mayhoff post Ludwig von Jan (5 vols, Leipzig, 1875), i.</bibl>
+                  <bibl xml:id="friedlein-1871">‘Der Calculus des Victorius’, ed. Gottfried Friedlein, in <title>Zeitschrift für Mathematik und Physik</title>, xvi (1871), pp 42-79.</bibl>
+                  <bibl xml:id="schweizer-2023">Dicuil, <title>De cursu solis lunaeque: Translation and commentary</title>, ed. and trans. C. G. Schweizer (PhD thesis, Trinity College Dublin, 2023).</bibl>
+                  <bibl xml:id="tierney-1967">Dicuil, <title>Liber de mensura orbis terrae</title>, ed. and trans. J. J. Tierney [and Ludwig Bieler] (Dublin, 1967).</bibl>
+                  <bibl xml:id="dümmler-1884">Dümmler, Ernst (ed.), <title>Poetae Latini aevi Carolini</title> (4 vols, Berlin, 1884), ii.</bibl>
+                  <bibl xml:id="huemer-1891">Gaius Vettius Aquilinus Iuvencus, <title>Evangeliorum libri quattuor</title>, ed. Johann Huemer (Vienna/Prague/Leipzig, 1891).</bibl>
+                  <bibl xml:id="godden-2024">Godden, Malcolm, Rohini Jayatilaka, Rosalind Love (eds), with contributions by Paolo  Vaciago, <title>Early Medieval Glosses to Boethius's De Consolatione Philosophiae</title> (Oxford, 2024).</bibl>
+                  <bibl xml:id="keil-1855">Keil, Heinrich and Martin Hertz (ed.), <title>Grammatici Latini</title> (7 vols, Leipzig, 1857–1870: 1855; repr. Hildesheim, 1961), ii.</bibl>
+                  <bibl xml:id="keil-1859">Keil, Heinrich and Martin Hertz (ed.), <title>Grammatici Latini</title> (7 vols, Leipzig, 1857–1870: 1859; repr. Hildesheim, 1961), iii.</bibl>
+                  <bibl xml:id="holtz-1981">Louis Holtz (ed.), <title>Donat et la tradition de l'enseignement grammatical: étude et édition critique</title> (Paris, 1981).</bibl>
+                  <bibl xml:id="lindsay-1911">Isidorus Hispalensis episcopus, <title>Etymologiarum sive originum libri XX</title>, ed. W. M. Lindsay (2 vols, Oxford, 1911).</bibl>
+                  <bibl xml:id="manitius-1911-12">‘Micons v. St-Riquier “De primis syllabis”’, ed. Max Manitius, in <title>Münchener Museum für Philologie des Mittelalters und der Renaissance</title>, i (1911/12), pp 121–77.</bibl>
+                  <bibl xml:id="passalacqua-1987">Passalacqua, Marina (ed.), <title>Prisciani Caesariensis Opuscula</title> (2 vols, Rome, 1987-99).</bibl>
+                  <bibl xml:id="mynors-1969">P. Vergilius Maro, <title>Opera</title>, ed. R. A. B. Mynors (Oxford, 1969).</bibl>
+                  <bibl xml:id="geus-2007">Remmius Favinus, <title>Gedicht über Gewichts- und Maßeinheiten</title>, ed. Klaus Geus (Oberhaid, 2007).</bibl>
+                  <bibl xml:id="mcdonald-1965">Titus Livius, <title>Ab urbe condita: tomus V. Libri XXXI-XXXV</title>,  ed. A. H. McDonald (Oxford, 1965).</bibl>
+                  <bibl xml:id="walsh-1999">Titus Livius, <title>Ab urbe condita: tomus VI. Libri XXXVI-XL</title>, ed. P. G. Walsh (Oxford, 1999).</bibl>
+                  <bibl xml:id="troncarelli-1987">Troncarelli, Fabio, <title>Boethiana aetas: modelli grafici e fortuna manoscritta della ‘Consolatio Philosophiae’ tra IX e XII secolo</title> (Alessandria, 1987).</bibl>
+               </div>
+               <div>
+                  <head n="2.2">Secondary sources</head>
+                  <bibl xml:id="bischoff-2014">Bischoff, Bernhard, <title>Katalog der festländischen Handschriften des neunten Jahrhunderts (mit Ausnahme der wisigotischen)</title>, ed. Birgit Ebersperger (3 vols, Wiesbaden, 2014), iii.</bibl>
+                  <bibl xml:id="collon-1900">Collon, Gaston, <title>Catalogue général des manuscrits des bibliothèques publiques de Frances, tome xxxvii: Tours</title> (2 vols, Paris, 1900), i.</bibl>
+                  <bibl xml:id="cordoliani-1960">Cordoliani, Alfred, ‘Le comput de Dicuil’ in <title>Cahiers de Civilisation Médiévale</title>, iii, no. 11 (1960), pp 325–37.</bibl>
+                  <bibl xml:id="delisle-1888">Delisle, Léopold, <title>Catalogue des manuscrits des fonds Libri et Barrois</title> (Paris, 1888).</bibl>
+                  <bibl xml:id="dorange-1875">Dorange, Auguste, <title>Catalogue descriptif et raisonné des manuscrits de la Bibliothèque de Tours</title> (Tours, 1875).</bibl>
+                  <bibl xml:id="love-2012">Love, R. C., ‘The Latin commentaries on Boethius's De consolatione philosophiae from the 9th to the 11th centuries’ in N. H. Kaylor, Jr. and P. E. Phillips (eds), <title>A companion to Boethius in the Middle Ages</title> (Leiden/Boston, 2012), pp 75–134.</bibl>
+                  <bibl xml:id="pabst-1994">Pabst, Bernhard, <title>Prosimetrum: Tradition und Wandel einer Literaturform zwischen Spätantike und Spätmittelalter</title>, (2 vols, Cologne/Weimar/Vienna, 1994), i.</bibl>
+                  <bibl xml:id="rand-1929">Rand, E. K., <title>A survey of the manuscripts of Tours</title> (2 vols, Cambridge MA, 1929).</bibl>
+                  <bibl xml:id="schweizer-2022">Schweizer, C. G., ‘Categorizing Dicuil's De cursu solis lunaeque’ in <title>Peritia: Journal of the Medieval Academy of Ireland</title>, xxxiii (2022), pp 227–48.</bibl>
+                  <bibl xml:id="vyver-1935">van de Vyver, André, ‘Dicuil et Micon de Saint-Riquier’ in <title>Revue Belge de Philologie et d’Histoire</title>, xiv (1935), pp 25–47.</bibl>
+               </div>
+            </div>
+         </div>
+         <div type="edition" xml:lang="la">
+            <!-- Each <section> element will be presented on a separate webpage. -->
+            <div type="section" xml:id="s01" n="Contents">
+               <head><span rend="color:red;">CAPITULA EPISTULĘ CENSUU<ex>M</ex>, QUAE IN FINE ALIENA NON EST A GRA<ex>M</ex>MATICA</span></head>
+               <l n="1" xml:id="cross-reference15">
+                  <milestone unit="folio" n="58v l. 5" source="#ms-T" facs="https://arca.irht.cnrs.fr/ark:/63955/md89d504ss9j"/>
+                  <span rend="color:red;">i</span> De notis libelli qui calculus nominat<ex>ur</ex><note type="source">Dicuil refers to tables that he regarded as part of the <title>Calculus</title> of Victorius of Aquitaine, but which are now regarded as later additions; they have been edited (along with Abbo, <title>Commentary</title>) by <ref target="#peden-2003">Peden 2003</ref>), pp 52-3 (additional texts 8-9). See also <ref target="#friedlein-1871">Friedlein 1871</ref>, pp 42-79, esp. 49-52 and 69.</note> ac de multis aliis ponderibus m<ex>et</ex>allor<ex>um</ex>.<note>For the table of contents, cf. the edition and translation in Dicuil, <title>De cursu</title>, ed. and trans. <ref target="#schweizer-2023">Schweizer 2023</ref>, pp 7-8. Cf. also the transcripts by <ref target="#vyver-1935">van de Vyver 1935</ref>, p. 32, and <ref target="#cordoliani-1960">Cordoliani 1960</ref>, p. 327, n. 13. <ref target="#cross-reference7">See the notes above in the introduction.</ref></note>
+               </l>
+               <l n="2">
+                  <span rend="color:red;">ii D</span>e mensuris frugum <ex>et</ex> 
+                  <app>
+                     <lem>ciborum</lem><!-- editorial -->
+                     <rdg>ciborurum</rdg><!-- MS reading -->
+                  </app>
+                  ac 
+                  <app>
+                     <lem>potuum</lem><!-- editorial -->
+                     <rdg>potum</rdg><!-- MS reading -->
+                  </app>.<note>These emendations have been suggested by <ref target="#vyver-1935">van de Vyver 1935</ref>, p. 32.</note>
+               </l>
+               <l n="3">
+                  <span rend="color:red;">iii</span> De tractatu per prosam facto in septem uersus.
+               </l>
+               <l n="4">
+                  <span rend="color:red;">iiii D</span>e omonymis ac sinonymis cum interpr<ex>et</ex>atione eorum.
+               </l>
+               <l n="5">
+                  <span rend="color:red;">v</span> De omonymis solummodo in diuersis causis inuentis.
+               </l>
+            </div>
+            <div type="section" xml:id="s02" n="Chapter i">
+               <head>i <supplied>De notis libelli qui calculus nominatur ac de multis aliis ponderibus metallorum</supplied></head>
+               <lg>
+               <l n="1">
+                  <milestone unit="folio" n="7v l. 15" source="#ms-P" facs="https://gallica.bnf.fr/ark:/12148/btv1b10032215p/f16.item"/>
+                  Annus bis nonus post centum bis quatter annos
+               </l>
+               <l n="2">
+                  Conceptu d<ex>omi</ex>ni fugiens modo cuncta creantis:
+               </l>
+               <l n="3">
+                  Post illos prorsus succedit epistula census.
+               </l>
+               <l n="4">
+                  Debemus <ex>christ</ex>o famulari corde fideli,
+               </l>
+               <l n="5">
+                  Terrestrem censum terreno reddere regi.
+               </l>
+               <l n="6">
+                  Subditus ac dominus propter haec 
+                  <!-- 
+                  This is an apparatus to treat editorial vs manuscript readings. 
+                  May need some review and refinement.
+                  (Another option is <choice><corr>ed. reading</corr><sic>MS reading</sic></choice>. <app> seems more flexible in the case of multiple manuscripts.)
+                  -->
+                  <app>
+                        <lem>mentem</lem><!-- editorial -->
+                        <rdg>mente</rdg><!-- MS reading -->
+                  </app>
+                  sagaci<note type="source">For <foreign>mente sagaci</foreign>, see Dicuil, <title>De cursu</title>, ed. <ref target="#schweizer-2023">Schweizer 2023</ref>, pp 62 (II i, referring to Pythagoras) and 87 (II v, adressing the king, i.e. Louis the Pious, similar to here). Dicuil's reference to Pythagoras is, in turn, a variation of <foreign>vir sagacis animi</foreign> in Plinius, <title>Naturalis historiae lib.</title> II, 21(19)/83, ed. <ref target="#mayhoff-1875">Mayhoff 1875</ref>, i, 154.</note>
+               </l>
+               <l n="7">
+                  Deb<ex>et</ex> uterque simul magnum numerare pusillo.
+               </l>
+               </lg>
+               <lg>
+               <l n="8">
+                  Seminibus modicis mensurae exordia dicam,
+               </l>
+               <l n="9">
+                  Ut memores notulae quot signant nomin<add>e</add> cunctę
+               </l>
+               <l n="10">
+                  Quasque uolumen hab<ex>et</ex> quod nomine calculus<note type="source">Dicuil refers to tables that he regarded as part of the <title>Calculus</title> of Victorius of Aquitaine, but which are now regarded as later additions; they have been edited (along with Abbo, <title>Commentary</title>) by <ref target="#peden-2003">Peden 2003</ref>), pp 52-3 (additional texts 8-9). These additions have first been analysed and partly edited by <ref target="#friedlein-1871">Friedlein 1871</ref>, pp 42-79, esp. 49-52 and 69. See also the title of <ref target="#s02">the present chapter</ref> in the <ref target="#cross-reference15">table of contents above</ref>.</note>
+                  instat.
+               </l>
+               <l n="11">
+                  <milestone unit="folio" n="8r" source="#ms-P" facs="https://gallica.bnf.fr/ark:/12148/btv1b10032215p/f17.item"/>
+                  Quod nomen calci diductum<note>= <foreign>deductum</foreign>; however, <foreign>i</foreign> instead of <foreign>e</foreign> is very common in Dicuil's texts in this close witness, usually without changing the meaning. <foreign>Diductum = deductum</foreign> occurs twice in this text. Therefore, this spelling is not unlikely to be Dicuil's own.</note> ab origine credo,
+               </l>
+               <l n="12">
+                  Nam calcus 
+                  <app>
+                     <lem>minimus</lem><!-- editorial -->
+                     <rdg>mini'mus</rdg><!-- MS reading -->
+                  </app> mensuris quippe lapillus:<note type="source">Cf., also for the following verse, Isidorus, <title>Etymologiarum lib.</title>  XVI xxv 8, ed. <ref target="#lindsay-1911">Lindsay 1911</ref>, ii: <foreign>Calcus, minima pars ponderis, quarta pars oboli est, constans lentis geminis granis. Appellatur autem calcus quod sit parvulus; sicut et lapis calculus, qui adeo minimus est ut sine molestia sui calcetur.</foreign></note>
+               </l>
+                  <l n="13" xml:id="cross-reference3">
+                  Speltae granum unum aut calcus lentisuae gemellum
+               </l>
+               <l n="14">
+                  Aequant semoboli semissis iura m<ex>et</ex>alli.
+               </l>
+               <l n="15">
+                  Semobolus binos calcos pensare ualebit,
+               </l>
+               <l n="16">
+                  Semobolus duplex plene m<ex>et</ex>itur obellum,
+               </l>
+               <l n="17">
+                  Ac scripulus duplo sic mensuratur obello.
+               </l>
+               <l n="18">
+                  Sextula dimedia scripulis geminis uelut instat;
+               </l>
+               <l n="19">
+                  Bis bino scripulo pensatur sextula simpla.
+               </l>
+               <l n="20">
+                  Sicilicus duplae pendens examine dragmae;
+               </l>
+               <l n="21">
+                  Illa duella man<ex>et</ex> dum duplex sextula const<add>e</add><del>a</del>t.
+               </l>
+               <l n="22">
+                  Sicilico bino impl<ex>et</ex>ur semuntia certa,
+               </l>
+               <l n="23">
+                  Uncia nam ternis stat mensurata duellis,
+               </l>
+               <l n="24">
+                  Ut sexcumx seno aequatur didragmatis auro.
+               </l>
+               <l n="25">
+                  Uncia bis fuerit, si sextas<note>Cf. <foreign>sextans</foreign>, the usual spelling of the word, <ref target="#cross-reference16">below in l. 38</ref> <ref target="#cross-reference17">and in l. 106</ref>. The present spelling, <foreign>sextas</foreign>, agrees with Dicuil's source, the ninth of the tables that were added to the <title>Calculus</title> of Victorius. <ref target="#peden-2003">Peden 2003</ref>), p. 53 notes no variant readings in the manuscript witnesses. It is, therefore, most likely that Dicuil indeed had, as stated by him, a copy of the <title>Calculus</title> at hand when hew wrote this, even though it is not the only possible explanation: Beda, <title>De temporum ratione</title> iv, ed. <ref target="#jones-1943">Jones 1943</ref>, p. 184 notes <foreign>sextas</foreign> as a variant of <foreign>sextans</foreign>.)</note> inde manebit,
+               </l>
+               <l n="26">
+                  Addita quę suppl<ex>et</ex> sectantia nomina dena:
+               </l>
+               <l n="27">
+                  Sextanti aucta, man<ex>et</ex> quadrans cognomine uero,
+               </l>
+               <l n="28">
+                  Bina triens, trina <ex>et</ex> quincunx, semisque quaterna,
+               </l>
+               <l n="29">
+                  Septunx, bes dodransque, decunces atque deunx, as.
+               </l>
+               </lg>
+               <lg>
+               <l n="30">
+                  Mirari noli posui quod talia dicta,
+               </l>
+               <l n="31">
+                  Nam nihil institui nisi quę m<ex>et</ex>ro ante uidebam.
+               </l>
+               <l n="32">
+                  Quae possum monstrare tibi inter uerba po<ex>et</ex>tae,
+               </l>
+               <l n="33">
+                  Si cupis, ut uideas, ne incredulus esse qu<del>a</del>eraris,
+               </l>
+               <l n="34">
+                  Has bene nam statuit notulas remus ante fauinus.<note type="source">Remmius Favinus, <title>Gedicht</title>, ed. <ref target="#geus-2007">Geus 2007</ref>.</note>
+               </l>
+               </lg>
+               <lg>
+               <l n="35">
+                  Si uis ipse notas rursus dictabo r<ex>et</ex>rorsum:
+               </l>
+               <l n="36">
+                  <milestone unit="folio" n="8v" source="#ms-P" facs="https://gallica.bnf.fr/ark:/12148/btv1b10032215p/f18.item"/>
+                  Libra, deunx, dextans, dodrans, bissis cumulantur,
+               </l>
+               <l n="37">
+                  Et septunx, semis quincusque, triens r<ex>et</ex>inentur.
+               </l>
+                  <l n="38" xml:id="cross-reference16">
+                  Post quadrans, sextans, sexcuncia <ex>et</ex> uncia constant;
+               </l>
+               <l n="39">
+                  Post semuncia subuenit, dehinc sextula duplex;
+               </l>
+               <l n="40">
+                  Sicilicus sequitur, succedit sextula simplex,
+               </l>
+               <l n="41">
+                  Sextula, dimedia scripulusque, pusillus, obellus;
+               </l>
+               <l n="42">
+                  Semobolus bino libratur semine speltae
+               </l>
+               <l n="43">
+                  Siue rotali uno tristis semente lupini.<note type="source">Cf. <foreign>tristisque lupini</foreign>, Vergilius Maro, <title>Georgicon</title>I 75, ed. <ref target="#mynors-1969">Mynors 1969</ref>, p. 31, but also Remmius Favinus, <title>Gedicht</title>, v. 12, ed. <ref target="#geus-2007">Geus 2007</ref>, p. 24.</note> 
+               </l>
+               <l n="44">
+                  Semoboli semis calcus remanere uid<ex>et</ex>ur
+               </l>
+               <l n="45" xml:id="cross-reference4">
+                  Aut unum speltae lentis seu grana gemella.
+               </l>
+               <l n="46">
+                  Ad quae perueni integra libra incipiendo
+               </l>
+               <l n="47">
+                  Paulatim minuens mensuras ordine certo.
+               </l>
+               </lg>
+               <lg>
+               <l n="48">
+                  Omonyma ponderum inchoant:
+               </l>
+               </lg>
+               <lg>
+               <l n="49">
+                  Praedictis notulis iam c<ex>et</ex>era pondera dicam.
+               </l>
+               <l n="50">
+                  En mina bis modulis binis his greca repl<ex>et</ex>ur,
+               </l>
+               <l n="51">
+                  Uncia nam nouies scripulus tot hab<ex>et</ex> mediocrem,
+               </l>
+               <l n="52">
+                  Una minam mediam decies plene uncia pensat,
+               </l>
+               <l n="53">Pondo aliam librat semel <ex>et</ex> semuncia nostra;
+               </l>
+               <l n="54">
+                  Has libras memini quas attica terra r<ex>et</ex>entat.
+               </l>
+               <l n="55">
+                  Tum quater ac nouies praestat quartam uncia pensa
+               </l>
+               <l n="56">
+                  Cum trinis scripulis ductis super aera profata.
+               </l>
+               <l n="57">
+                  Quam populis grecis communem legimus esse;
+               </l>
+               <l n="58">
+                  Sic fuerat grecos aput ala quaterna minarum,
+               </l>
+               <l n="59">
+                  Quas pro nostra una graii tenuere libella.
+               </l>
+               </lg>
+               <lg>
+               <l n="60">
+                  Dum post libram unam dixi modo iura minarum,
+               </l>
+               <l n="61">
+                  <milestone unit="folio" n="9r" source="#ms-P" facs="https://gallica.bnf.fr/ark:/12148/btv1b10032215p/f19.item"/>                        
+                  Nunc narrare paro plene iam sena talenta;
+               </l>
+               <l n="62">
+                  Nam modicum, medium fuerat magnumque talentum
+               </l>
+               <l n="63">
+                  Romanum, grecum paruum seu grande statutum.
+               </l>
+               <l n="64">
+                  Quinque libris decies primum fecere latini,
+               </l>
+               <l n="65">
+                  Per libras octo nouies tenuere secundum,
+               </l>
+               <l n="66">
+                  Postremum centum uiginti habuere talentum.
+               </l>
+               <l n="67">
+                  Cicropidae paruum primum posuere talentum
+               </l>
+               <l n="68">
+                  Sexaginta minas dans aut sex milia dragmas.
+               </l>
+               <l n="69">
+                  Idem thesidae maius statuere talentum
+               </l>
+               <l n="70">
+                  Centum quippe minas octo uel milia dragmas
+               </l>
+               <l n="71">
+                  Efficiens, mediae certo moderamine librae;
+               </l>
+               <l n="72">
+                  Namque minam minimam uel quam narrauimus ampla<ex>m</ex>
+               </l>
+               <l n="73">
+                  Pensatum legimus nullum fecisse talentum.
+               </l>
+                  <l n="74" xml:id="cross-reference18">
+                  Dardanus adfirmat mensuras esse minoris.<note type="source">Priscianus, <title>De figuris numerorum</title>, ed. <ref target="#passalacqua-1987">Passalacqua 1987</ref>, i, 14-5.</note>
+               </l>
+                  <l n="75" xml:id="cross-reference19">
+                  Liuius est auctor maioris porro talenti.<note type="source">Livius, <title>Ab urbe condita lib.</title> XXXVIII 38.13, ed. <ref target="#walsh-1999">Walsh 1999</ref>, p. 177:<foreign>talenta Attica ... (talentum ne minus pondo octoginta Romanis ponderibus pendat) ...</foreign>. This occurs in the context of specifying tributes, fittingly to the title of Dicuil's <title>Epistula censuum</title>. As there do not appear to have been many manuscripts at Dicuil's time (see <ref target="#walsh-1999">Walsh 1999</ref>, pp vi-xvi), this is certainly an indirect reference through Dicuil's central source, Priscianus, <title>De figuris numerorum</title>, ed. <ref target="#passalacqua-1987">Passalacqua 1987</ref>, i, 15, where Livius is also discussed along with Dardanus, citing the same passage as this note.</note>
+               </l>
+                  <l n="76" xml:id="cross-reference20">
+                  Nostra talenta loquens hispanus episcopus insit.<note type="source">Isidorus, <title>Etymologiarum lib.</title> XVI xxv 22, ed. <ref target="#lindsay-1911">Lindsay 1911</ref>, ii.</note>
+               </l>
+               <l n="77">
+                  Est aliud sextum, quod nunc narrabo, talentum:
+               </l>
+               <l n="78">
+                  Quod commune sol<ex>et</ex> fore romae sicut athenis;
+               </l>
+               <l n="79">
+                  Quod libras hab<ex>et</ex> integre octoginta latinas.
+               </l>
+               </lg>
+               <lg>
+               <l n="80">
+                  Dum sicel hebrei scripulis bis quinque profantur,
+               </l>
+               <l n="81">
+                  Siclum sicilicum greci fieri atque latini;
+               </l>
+               <l n="82">
+                  Nam sicel <ex>et</ex> siclus diuerso nomine signant
+               </l>
+               <l n="83">
+                  Pondera diuersa hebrea greca atque latina.
+               </l>
+               </lg>
+               <lg>
+               <l n="84">
+                  Sinonyma uel polionyma 
+                  <app>
+                     <lem>ponderum</lem><!-- editorial -->
+                     <rdg>ponderũm</rdg><!-- MS reading -->
+                  </app>
+                  incipiunt:
+               </l>
+               </lg>
+               <lg>
+               <l n="85">
+                  Coclear aut scripulus nec non 
+                  <app>
+                     <lem>obolusque</lem><!-- editorial -->
+                     <rdg>obólusque</rdg><!-- MS reading -->
+                  </app>
+                  fuerunt
+               </l>
+               <l n="86">
+                  <milestone unit="folio" n="9v" source="#ms-P" facs="https://gallica.bnf.fr/ark:/12148/btv1b10032215p/f20.item"/> 
+                  Mensura ęquati, docuit ceu dardanus ante.<note type="source">Priscianus, <title>De figuris numerorum</title>, ed. <ref target="#passalacqua-1987">Passalacqua 1987</ref>, i, 14 (without mentioning the <foreign>coclear</foreign>: <foreign>Obolus dicitur, ut Dardanus docet, scripulus esse.</foreign></note> 
+               </l>
+               <l n="87">
+                  Quod nunc non sequimur, scripulus sed duplus obelli.
+               </l>
+                  <l n="88"><note><!-- gloss, how to deal with it here? see word file -->Gloss: <foreign>In nomine d<ex>omi</ex>ni n<ex>ost</ex>ri ih<ex>es</ex>u <ex>christ</ex>i</foreign></note>Dimedium dragmae quidam fore coclear aiunt.<note type="source">Isidorus, <title>Etymologiarum lib.</title>  XVI xxvi 3, ed. <ref target="#lindsay-1911">Lindsay 1911</ref>, ii: <foreign>Mensurarum pars minima coclear, quod est dimidia pars dragmae ...</foreign></note>
+               </l>
+               <l n="89">
+                  Denarius, clemes, dragma, olce eade<ex>m</ex> fore signant,
+               </l>
+               <l n="90">
+                  nam ternos scripulos haec singula iura receptant
+               </l>
+               <l n="91">
+                  Aureus <ex>et</ex> solidus nummusue argenteus atque
+               </l>
+               <l n="92">
+                  Sextula siue nomisma aeque, sed nomine distant:
+               </l>
+               <l n="93">
+                  Bis binos scripulos his quisque<note><foreign>~</foreign> underneath <foreign>s qu</foreign>.</note> tenere uid<ex>et</ex>ur.<note type="source">Isidorus, <title>Etymologiarum lib.</title>  XVI xxv 14, ed. <ref target="#lindsay-1911">Lindsay 1911</ref>, ii: while all of the synonyms are listed there, the four <foreign>scripuli</foreign> are not directly specified. Isidore mentions, however, that one ounce consists of six <foreign>sextulae</foreign>, and shortly afterwards (in XVI xxv 19) that an ounce equals twenty-four scruples. Remmius Favinus, <title>Gedicht</title>, vv 17; 21-22 , ed. <ref target="#geus-2007">Geus 2007</ref>, p. 24, specifies the four scruples more directly for the <foreign>sextula</foreign>, without mentioning the synonyms, just like Priscianus, <title>De figuris numerorum</title>, ed. <ref target="#passalacqua-1987">Passalacqua 1987</ref>, i, 14 (concisely: <foreign>sextula scripuli quattuor</foreign>) and Beda, <title>De temporum ratione</title> iv, ed. <ref target="#jones-1943">Jones 1943</ref>, p. 185: <foreign>sextula sive sesclae   iv scripuli</foreign>).</note>
+               </l>
+               <l n="94">
+                  Denaris tempus fuerat haec quando tenebat.<note type="source">Priscianus, <title>De figuris numerorum</title>, ed. <ref target="#passalacqua-1987">Passalacqua 1987</ref>, i, 15 (<foreign>Denarii autem illo tempore nummi argentei erant XXIIII siliquarum, quod in eodem libro ostendit Livius: ...</foreign>. Six <foreign>siliquae</foreign> have been equalled to a <foreign>scripulus</foreign>shortly before (p. 14). Cf. Livius, <title>Ab urbe condita lib.</title> XXXIV 52.6, ed. <ref target="#mcdonald-1965">McDonald 1965</ref>, p. 233.</note>
+               </l>
+                  <l n="95" xml:id="cross-reference22">
+                  Argenti legimusque minas ita teste iuuenco.<note type="source">Iuvencus, <title>Evangeliorum lib.</title> IV, v. 639, ed. <ref target="#huemer-1891">Huemer 1891</ref>, p. 139: <foreign>Argenti triginta minas posuere profani ...</foreign></note>
+               </l>
+               <l n="96">
+                  Ac tribus in scripulis argenteus ante fiebat,
+               </l>
+               <l n="97">
+                  Diuersum ut uarias mensuras tempus habebat,
+               </l>
+               <l n="98">
+                  Quod uariae gentes adhuc seruare uidentur.
+               </l>
+               <l n="99">
+                  Francorum solidus triplus uelut esse probatur,
+               </l>
+               <l n="100">
+                  Denarii scripulo donant qui nomen habendum,
+               </l>
+               <l n="101">
+                  Denarium legi scripuli sed nomen habere,
+               </l>
+               <l n="102">
+                  Denarii ut decima nummus pro parte manebat.
+               </l>
+               <l n="103">
+                  Res eadem, uarium est nomen: sex<add>c</add>uncia, sexcunx.
+               </l>
+               <l n="104">
+                  Ea est a ter ministrum, semuntia nomina trina,
+               </l>
+               <l n="105">
+                  Sed nil mensurae distant ratione m<ex>et</ex>alli.
+               </l>
+                  <l n="106" xml:id="cross-reference17">
+                  Sic sextans, ciatus, sic dextans atque decunces,
+               </l>
+               <l n="107">
+                  Sed ciatus dragmam decies reperitur habere.
+               </l>
+               <l n="108">
+                  Pondo, as, libra tenent inter se talia iura,
+               </l>
+               <l n="109">
+                  Bissis<note type="source">Cf. Dicuil, <title>De cursu</title>, IIII vii, ed. <ref target="#schweizer-2023">Schweizer 2023</ref>, p. 247.</note> idem ut monstrant, bessis, bes nomine trino.
+               </l>
+               <l n="110">
+                  Nomina pauca aliis quę sunt ignota sequuntur:
+               </l>
+               <l n="111">
+                  <milestone unit="folio" n="10r" source="#ms-P" facs="https://gallica.bnf.fr/ark:/12148/btv1b10032215p/f21.item"/> 
+                  Bis septem numero quae monstrant aera mon<ex>et</ex>ae.
+               </l>
+               <l n="112">
+                  Terna notata tamen multis ipsa ante sed ibunt:
+               </l>
+               <l n="113">
+                  Quadrilibris, trilibris, bilibris, quas libra figurat,
+               </l>
+               <l n="114">
+                  Ex uno numero ueniunt at quattuor usque,
+               </l>
+               <l n="115">
+                  Libra dupla, ut dussis, tressis, quadrassis adhaerent.
+               </l>
+               <l n="116">
+                  Inde nouem libris pariter nonusis aenis,
+               </l>
+               <l n="117">
+                  Ecce, decussis, uigesis, trigessis habentur;
+               </l>
+               <l n="118">
+                  Hinc quadragessis<note>There is one dot each above and below the second <foreign>a</foreign> in the MS. This first appears to idicate deletion, which would, however, not make sense here. Instead, this might indicate that the letter needs to be emphasised when reciting the line.</note> quinquagessisque manebunt;
+               </l>
+               <l n="119">
+                  Sexagessis septu- quide<supplied>m</supplied> -agesisque<note>While the single <foreign>s</foreign> first appears to be a scribal mistake or inconsistency, it arguably has metrical reasons, as a short <foreign>e</foreign> is required here.</note> sequuntur;<note>The hyphens are an editorial addition to demonstrate the tmesis in this line.</note>
+               </l>
+               <l n="120">
+                  Post octogessis, nonagessis numerantur;
+               </l>
+               <l n="121">
+                  Postremum libris pondus centussis aenis
+               </l>
+               <l n="122">
+                  Ipse minas aeris centum pensare notatur.
+               </l>
+               <l n="123">
+                  Nullum aeris pondus maius hac uoce uocatur.
+               </l>
+               <l n="124" xml:id="cross-reference2">
+                  Grammaticus doc<ex>et</ex> haec, immo auctor grammaticorum,
+               </l>
+               <l n="125">
+                  Diuisum cuius nomen m<ex>et</ex>ro ante peregi.<note type="source">Dicuil's poem on Priscian's <title>Partitiones duodecim versuum Aeneidos principalium</title>: <foreign>Prisci canit pueris haec ani cuncta libellus</foreign>foreign>; <ref target="#keil-1859">Keil 1859</ref>, iii, 390–1: 390; <ref target="#dümmler-1884">Dümmler 1884</ref>, p. 667; see <ref target="#cross-reference1">‘The text’ in the introduction to the present edition</ref>.</note> 
+               </l>
+               <l n="126">
+                  Cum post quem numerum haud pondus componitur a se,
+               </l>
+                  <l n="127" xml:id="cross-reference21">
+                  Postremum est pensum sed hoc uarrone docente.<note type="source">Priscianus, <title>De figuris numerorum</title>, ed. <ref target="#passalacqua-1987">Passalacqua 1987</ref>, i, 12 (<foreign>... nonagessis, centussis, post quem numerum teste Varrone non componuntur cum asse numeri.</foreign>.</note> 
+               </l>
+               </lg>
+            </div>
+            <div type="section" xml:id="s03" n="Chapter ii">
+               <head>ii <supplied>De mensuris frugum et ciborum ac potuum</supplied></head> 
+               <lg>
+               <l n="1">
+                  <milestone unit="folio" n="10r l. 18" source="#ms-P" facs="https://gallica.bnf.fr/ark:/12148/btv1b10032215p/f21.item"/>
+                  Ponderibus scriptis mensuras scribere curo;
+               </l>
+               <l n="2">
+                  Pondera nam propri<del>a</del>e debent pensare m<ex>et</ex>alla,
+               </l>
+               <l n="3">
+                  Mensurae fruges escas potusque probabunt,
+               </l>
+               <l n="4">
+                  Nos res quanquam alias p<ex>er</ex> nomen utrumque uocamus.  
+               </l>
+               <l n="5">
+                  Non solum legimus res corpore rite carentes,
+               </l>
+               <l n="6">
+                  Sed quę tanguntur pariter res atque uidentur,
+               </l>
+               <l n="7">
+                  Quae quia plus numero nec egent sunt famine n<ex>ost</ex>ro.
+               </l>
+               <l n="8">
+                  Seminibus minimis, ut dixi, pondera nasci,
+               </l>
+               <l n="9">
+                  <milestone unit="folio" n="10v" source="#ms-P" facs="https://gallica.bnf.fr/ark:/12148/btv1b10032215p/f22.item"/> 
+                  Quae granis geminis aequantur lentis in hortis.<note>See above, Chapter i, <ref target="#cross-reference3">13</ref> and <ref target="#cross-reference4">45</ref>.</note>
+               </l>
+               <l n="10">
+                  Sic statui fari mensurae exordia parua:
+               </l>
+               <l n="11">
+                  Coclear appendit semissem examine dragmae,
+               </l>
+               <l n="12">
+                  Concula compl<ex>et</ex>ur nouies, si fiat obellus,
+               </l>
+               <l n="13">
+                  Sed ciatus denis dragmis aequatur in imis;
+               </l>
+               <l n="14">
+                  Oxibafus 
+                  <app>
+                     <lem>scripulis</lem><!-- editorial -->
+                     <rdg>scri'pulis</rdg><!-- MS reading -->
+                  </app> 
+                  nouies ita quinque leuatur.
+               </l>
+               <l n="15">
+                  Sicilicis senis acitabulus ille repletur,
+               </l>
+               <l n="16">
+                  Namque quater scripulis nouies acitabulus instat;
+               </l>
+               <l n="17">
+                  Eminam ductus hic bis quater efficit unam,
+               </l>
+               <l n="18">
+                  Emina in liquidis constat ceu libra m<ex>et</ex>allis.
+               </l>
+               <l n="19">
+                  Eminas duplices aequat sextarius unus,
+               </l>
+               <l n="20">
+                  Qui dici poterit uera ratione bilibris;
+               </l>
+               <l n="21">
+                  Ille quater sumptus greco fit nomine choenix.
+               </l>
+               <l n="22">
+                  Sic gomor aut quinaris erit, si quinque locentur,
+               </l>
+               <l n="23">
+                  Si pariter fuerint sex, chus uel congius extat,
+               </l>
+               <l n="24">
+                  Si sit sedecies, modius romanus hab<ex>et</ex>ur.
+               </l>
+               <l n="25">
+                  Mensuras uarias egit sextarius idem;
+               </l>
+               <l n="26">
+                  Sic post haec modius diuerse pensa parabit.
+               </l>
+               <l n="27">
+                  Semisse ac modio plene parabitur urna.
+               </l>
+                  <l n="28" xml:id="cross-reference23">
+                  Hac bina italiae replebitur anphora, romae;
+               </l>
+               <l n="29">
+                  Iam greca in ternis sed mensurabimus urnis;
+               </l>
+               <l n="30">
+                  Quattuor ac modiis repletur gallica plenis.
+               </l>
+               <l n="31">
+                  Inter haec uarias plebes iura anphora seruat.
+               </l>
+               <l n="32">
+                  Quinque aut sex modios ual<ex>et</ex> unus habere medimn<ex>us,</ex><note>The -<foreign>us</foreign> is covered by the paper binding and cannot be read with all certainty, even in situ.</note>
+               </l>
+               <l n="33">
+                  Dum m<ex>et</ex>rum est proprium nomen sextaria centu<ex>m</ex>
+               </l>
+               <l n="34">
+                  <milestone unit="folio" n="11r" source="#ms-P" facs="https://gallica.bnf.fr/ark:/12148/btv1b10032215p/f23.item"/> 
+                  Atque gomor modios totos ter quinque tenebit,
+               </l>
+               <l n="35">
+                  Qui quater effectus tum culleus esse uid<ex>et</ex>ur.
+               </l>
+               <l n="36">
+                  Quo nulla in liquidis fuerat mensura latinis
+               </l>
+               <l n="37">
+                  Maior mensuras dicam a nobis alienas;
+               </l>
+               <l n="38">
+                  Quae sunt, iordanes ubi currit <ex>et</ex> aduena n<del>a</del><add>i</add>lus
+               </l>
+                  <l n="39" xml:id="cross-reference24">
+                  Allophilos satum mensuram scimus habere
+               </l>
+               <l n="40">
+                  Hebreae nomen ducens ab origine gentis,
+               </l>
+               <l n="41">
+                  Unum ac dimedium modium quod habere uid<ex>et</ex>ur.
+               </l>
+               <l n="42">
+                  Est aliud satum undecies sextaria bina;
+               </l>
+               <l n="43">
+                  Hebreum id modium solum r<ex>et</ex>inere probatur.
+               </l>
+               <l n="44">
+                  Batus, quod legimus nomen sermone latino -
+               </l>
+               <l n="45">
+                  Hebrei, quorum est nomen, bene bata loquuntur -
+               </l>
+               <l n="46">
+                  Quinquaginta capit frugis sextaria tritae.
+               </l>
+               <l n="47">
+                  Inde corus sequitur nomen de nomine collis
+               </l>
+               <l n="48">
+                  Diductum<note>= <foreign>deductum</foreign>; however, <foreign>i</foreign> instead of <foreign>e</foreign> is very common in Dicuil's texts in this close witness, usually without changing the meaning. <foreign>Diductum = deductum</foreign> occurs twice in this text. Therefore, this spelling is not unlikely to be Dicuil's own.</note> primae nobis ab origine linguae;
+               </l>
+                  <l n="49" xml:id="cross-reference26">
+                  Nam triginta ten<ex>et</ex> modios onus ipse cameli.
+               </l>
+               <l n="50">
+                  Artaba mensura est calidis orientis in aruis,
+               </l>
+               <l n="51">
+                  Austri fructiferis sine nube absque imbribus atris.
+               </l>
+               <l n="52">
+                  Quae mensura octo nouies se<del>x</del>taria sorb<ex>et</ex>,
+               </l>
+               <l n="53">
+                  Confusae ut linguae causa creuere malorum; <note type="source">Cf. Genesis 11, 1–9, esp. 9.</note>note>
+               </l>
+               <l n="54">
+                  Tres modiiue intrant in eam ac pars tertia quarti.<note type="source">Cf. Remmius Favinus, <title>Gedicht</title>, vv 88-9, ed. <ref target="#geus-2007">Geus 2007</ref>, p. 28.</note>
+               </l>
+               </lg>
+               <lg>
+                  <l n="55" xml:id="cross-reference8">
+                  
+                  Omonyma mensurarum oriuntur: <!-- subtitle - highlight? -->
+               </l>
+               </lg>
+               <lg>
+               <l n="56">
+                  Haec nec pauca nimis hab<ex>et</ex>, haec nec nomina multa;
+               </l>
+               <l n="57">
+                  Hic appellatiua loquor communia dicta.
+               </l>
+               <l n="58">
+                  Craxatas uariae mensuras parte uidemus,
+               </l>
+               <l n="59">
+                  <milestone unit="folio" n="11v" source="#ms-P" facs="https://gallica.bnf.fr/ark:/12148/btv1b10032215p/f24.item"/> 
+                  Nomen idem multas hoc est res significare,
+               </l>
+               <l n="60">
+                  Ut momentum oculi lunae solisque notantur.
+               </l>
+               <l n="61">
+                  Tarquinius, decius, drusus uel scipio, pirrhus,
+               </l>
+               <l n="62">
+                  Nostra maria, simon, antique, c<add>h</add>ristus, iesus,
+               </l>
+               <l n="63">
+                  Emina aut semis plene seu libra manebit
+               </l>
+               <l n="64">
+                  Uel media emina est septunx, semuncia clauda,
+               </l>
+               <l n="65">
+                  Sed mediam <ex>et</ex> magnam cotila<ex>m</ex> appellamus utrasque.
+               </l>
+               <l n="66">
+                  Emina haud solum ostendit bis sex sed <ex>et</ex> unum,
+               </l>
+               <l n="67">
+                  Quinque ter ac modios gomor aut sextaria quinque,
+               </l>
+               <l n="68">
+                  Octo bis aut bina undecies sextaria certa,
+               </l>
+               <l n="69">
+                  M<ex>et</ex>itur modius hebreus siue latinus.
+               </l>
+               <l n="70">
+                  Sed satum modium cum dimedio aequat habendum,
+               </l>
+               <l n="71">
+                  Satum aliud uelut undecies sextaria bina.<note><ref target="#cross-reference24">See above, Chapter ii, 39-43, esp. 41-2.</ref></note>
+               </l>
+               <l n="72">
+                  Anphora terna man<ex>et</ex>, quam dixi sufficienter.<note><ref target="#cross-reference23">See the three types of the <foreign>anphora</foreign> above, Chapter ii, 28-31.</ref></note>
+               </l>
+               <l n="73">
+                  Artaba niliaca est postremo famine clausa;<note type="source">Cf. Remmius Favinus, <title>Gedicht</title>, vv 88-9, ed. <ref target="#geus-2007">Geus 2007</ref>, p. 28.</note>
+               </l>
+               <l n="74">
+                  Descriptum cuius pensum fore utrumque paraui.
+               </l>
+               </lg>
+               <lg>
+                  <l n="75" xml:id="cross-reference9">
+               
+                  ·i· Sinonyma uel polionyma mensurarum ordiuntur: <!-- subtitle - highlight? -->
+               </l>
+               </lg>
+               <lg>
+               <l n="76">
+                  Multa nimis species haec crebro, singula multa
+               </l>
+               <l n="77">
+                  Iura e<ex>ius</ex> cuiusque <ex>et</ex> iuris plurima saepe
+               </l>
+               <l n="78">
+                  Nomina, quae libros scrutando cerno frequenter.
+               </l>
+               <l n="79">
+                  Nominibus uariis causae spectantur eaedem,
+               </l>
+               <l n="80">
+                  Ut gladius, mucro, ensis;<note type="source">Cf. Priscianus, <title>Institutionum grammaticarum lib.</title> II, 26, ed. <ref target="#keil-1855">Keil/Hertz 1855</ref>, ii, 59.</note> humus, tellus, ita terra;<note type="source">Isidorus, <title>Etymologiarum lib.</title> I vii 14, ed. <ref target="#lindsay-1911">Lindsay 1911</ref>, i.</note>
+               </l>
+               <l n="81">
+                  Uirgilius, maro, publius; ascanius uel iulus;
+               </l>
+               <l n="82">
+                  Azarias, ozias;<note type="source">Cf. 2 Kings 15, 1-8; 2 Chronicles 26, 1–22: Matthew 1, 9.</note> israhel, <ex>christu</ex>s, ih<ex>esu</ex>s;
+               </l>
+               <l n="83">
+                  Israhel tandem, primum qui dictus iacob.
+               </l>
+               <l n="84">
+                  <milestone unit="folio" n="12r" source="#ms-P" facs="https://gallica.bnf.fr/ark:/12148/btv1b10032215p/f25.item"/> 
+                  Pondus idem librat sexcunx acitabulus atque,
+               </l>
+               <l n="85">
+                  Emina <ex>et</ex> cotilas, bilibris, sextarius unus,
+               </l>
+               <l n="86">
+                  Tempore quem ueterum dextans aliquando ter impl<ex>et</ex>;
+               </l>
+                  <l n="87" xml:id="cross-reference27">
+                  Lucius ennius adfirmat haec senica iura.<note type="source">Many of the above and below measures are discussed in a similar way by Isidorus, <title>Etymologiarum lib.</title>  XVI xxvi 5-9, ed. <ref target="#lindsay-1911">Lindsay 1911</ref>, ii; however, Seneca and some measures, incl. the <foreign>dextans</foreign> are not mentioned there. The same applies to Remmius Favinus, <title>Gedicht</title>, vv 65-85, ed. and trans. <ref target="#geus-2007">Geus 2007</ref>, pp 28-9. Dicuil might have used a manuscript of one of these texts adding information and misattributing it to Seneca. Priscian's <title>De figuris numerorum</title>, ed. <ref target="#passalacqua-1987">Passalacqua 1987</ref>, p. 16, references Seneca the Elder in the context of pounds, talents, <foreign>minae</foreign>, and sesterces, which might have been misunderstood as crediting him as an authority on measures more generally.</note>
+               </l>
+               <l n="88"> 
+                  Quinaris gomor hic debent habitare, sed ille
+               </l>
+               <l n="89">
+                  Congius <ex>et</ex> chus erit, cadus anphora greca manebit,
+               </l>
+               <l n="90">
+                  Maius idem satum sorb<ex>et</ex> quod <ex>et</ex> urna latina.
+               </l>
+               </lg>
+               <lg>
+                  <l n="91" xml:id="cross-reference10">
+                   
+                  <app>
+                     <lem>·ii· Omonyma simul ac synonyma ponderum <ex>et</ex> mensuraru<ex>m</ex>, hoc est uel dionyma siue trionyma seu tetraonyma initiant<ex>ur</ex>:</lem><!-- editorial -->
+                     <rdg>·i· Omonyma simul ac synonyma ponderum <ex>et</ex> mensuraru<ex>m</ex>
+                        ·i· Hoc est uel dionyma siue trionyma seu tetraonyma initiant<ex>ur</ex></rdg><!-- MS reading -->
+                  </app><!-- subtitle - highlight? --> 
+               </l>
+               </lg>
+               <lg>
+               <l n="92">
+                  Praedictae species una<ex>m</ex> fecere duabus.
+               </l>
+               <l n="93">
+                  Nomina pauca nimis species haec tertia captat,
+               </l>
+                  <l n="94" xml:id="cross-reference11">
+                  Ut fastus, uates, acies ariesque, nepotes,
+               </l>
+               <l n="95">
+                  Aemulus atque sacer, corus, as, exercitus, ala,
+               </l>
+               <l n="96">
+                  Summa, fori, ambitus <ex>et</ex> saltus, tonus ac mare, mucro;
+               </l>
+               <l n="97">
+                  Has binas causas rostrum stagnumque reuelant.
+               </l>
+                  <l n="98" xml:id="cross-reference12">
+                     Magnus alexander, pompeius corpore magnus,<note type="source">Cf. Priscianus, <title>Institutionum grammaticarum lib.</title> II, 25-26, ed. <ref target="#keil-1855">Keil/Hertz 1855</ref>, ii, 58-9.</note>
+               </l>
+               <l n="99">
+                  Iulius <ex>et</ex> ga<del>l</del>ius, caesar, nero, nomine clari,
+               </l>
+               <l n="100">
+                  Publius aeneas maro marcus uirgiliusque
+               </l>
+                  <l n="101" xml:id="cross-reference13">
+                  Sic simon p<ex>et</ex>rus, simon cananeus in altis,
+               </l>
+               <l n="102">
+                  Sic iacob<ex>us</ex> minor ac maior, sic <ex>christu</ex>s ih<ex>esu</ex>s,
+               </l>
+               <l n="103">
+                  Quae coniunctim unum, disiunctim multa p<ex>re</ex>hendunt.
+               </l>
+               <l n="104">
+                  Hanc binam hic speciem quater ornant nomina quinque;
+               </l>
+               <l n="105">
+                  Nomina fixa loquor; non propria nomina dico.
+               </l>
+               <l n="106">
+                  Cessantes fari haec nunc, quod nunc instat, agamus!<note>Cf. the last verse of Dicuil's <title>De cursu solis lunaeque</title> II i (ed. <ref target="#schweizer-2023">Schweizer 2023</ref>, p. 69). The last six words are identical.</note>
+               </l>
+                  <l n="107" xml:id="cross-reference14">
+                  Denarius, cotilas ciatusque argenteus atque,
+               </l>
+               <l n="108">
+                  <milestone unit="folio" n="12v" source="#ms-P" facs="https://gallica.bnf.fr/ark:/12148/btv1b10032215p/f26.item"/>                     
+                  Emina <ex>et</ex> gomor <ex>et</ex> grandis sola anphora greca:
+               </l>
+               <l n="109">
+                  Nominibus scriptis, quid sunt septem ista, uid<ex>et</ex>ur.
+               </l>
+               <l n="110">
+                  Concula ceu m<ex>et</ex>rum, oxibafus, corus atque medimnus,
+               </l>
+               <l n="111">
+                  Culleus: haud aliis iuncti ornant singula pensa.
+               </l>
+               <l n="112">
+                  Culleus infelix aliter tormenta marina:
+               </l>
+               <l n="113">
+                  Claudit triste sedens homo, gallus, simea, serpens,
+               </l>
+               <l n="114">
+                  Pro culp<supplied>a</supplied>e merito referentis l<ex>et</ex>a parenti
+               </l>
+               <l n="115">
+                  <space extent="0.3 line"/>Uel consanguineo seu fratri siue sorori.
+               </l>
+               <l n="116">
+                  Ut potui, notulas mensuras pondera dicens,
+               </l>
+               <l n="117">
+                  Nox cadit <ex>et</ex> nigris tegimur <app>
+                     <lem>celantibus</lem><!-- editorial -->
+                     <rdg>caelantibus</rdg><!-- MS reading -->
+                  </app> umbris.
+               </l>
+               </lg>
+            </div>
+            <div type="section" xml:id="s04" n="Chapter iii">
+               <head>iii <supplied>De tractatu per prosam facto in septem uersus</supplied></head>
+                 <lg>
+                  <l n="1">
+                     <milestone unit="folio" n="12v l. 11" source="#ms-P" facs="https://gallica.bnf.fr/ark:/12148/btv1b10032215p/f26.item"/>
+                     Quae m<ex>et</ex>ra in tenebris dixerunt ultima furuis,
+                  </l>
+                  <l n="2">
+                     Prosa palam poterit uerbis monstrare relatis.
+                  </l>
+                  <l n="3">
+                     Non audita igitur species ista ante fiebat;
+                  </l>
+                  <l n="4">
+                     Ob hoc insolitam, solam, desidero factam
+                  </l>
+                  <l n="5">
+                     Per prosam fieri, facile ut sit, <app>
+                        <lem>quicquid</lem><!-- editorial -->
+                        <rdg>quidquic</rdg><!-- MS reading -->
+                     </app> habebat,
+                  </l>
+                  <l n="6">
+                     Namque duae species<note><ref target="#cross-reference8">See above, Chapter ii, 55</ref> <ref target="#cross-reference9">and 75.</ref></note> ipsam uenere sub unam,<note><ref target="#cross-reference10">See above, Chapter ii, 91.</ref></note>
+                  </l>
+                  <l n="7">
+                     Quam nullus scripsit prius, ut fari illa ualer<ex>et</ex>.
+                  </l>
+                 </lg> 
+            </div>
+            <div type="section" xml:id="s05" n="Chapter iiii">
+               <head>
+                  <app>
+                     <lem>iiii</lem><!-- editorial -->
+                     <rdg>·i· </rdg><!-- MS reading -->
+                  </app> <supplied>De omonymis ac sinonymis cum interpretatione eorum</supplied></head>
+
+               <lg>
+                  <l n="1">
+                     <milestone unit="folio" n="12v l. 18" source="#ms-P" facs="https://gallica.bnf.fr/ark:/12148/btv1b10032215p/f26.item"/>
+                     M<ex>et</ex>ra silent, census tractabit c<ex>et</ex>era prosa,
+                  </l>
+                  <l n="2">
+                     Postremo ut reser<ex>et</ex> manifesto obscura m<ex>et</ex>rorum,
+                  </l>
+                  <l n="3">
+                     Quae ignorant alii, dum sint ludicra peritis.
+                  </l>
+               </lg>
+
+               <p n="4">
+                  Q<ex>uonia</ex>m illa quae de omonymis ac sinonymis mensuraru<ex>m</ex> scripsera<ex>m</ex><note><ref target="#cross-reference8">See above, Chapter ii, 55</ref> <ref target="#cross-reference9">and l. 75.</ref></note> <ex>et</ex> maxime de commixta ex ambabus specie qua<ex>m</ex> nouo more, quasi trilicem telam, texuera<ex>m</ex><note><ref target="#cross-reference10">See above, Chapter ii, 91.</ref></note> tenebrosa imperitis estimo fieri, minimu<ex>m</ex> tractatu<ex>m</ex> tamen necessarium subsequenter ostendere deliberaui. Ac postea p<supplied>ro</supplied>pt<ex>er</ex> <app>
+                     <lem>supra</lem>
+                     <rdg>su'pra</rdg>
+                  </app><milestone unit="folio" n="13r" source="#ms-P" facs="https://gallica.bnf.fr/ark:/12148/btv1b10032215p/f27.item"/>dictam causam implere apud me constitui, sed p<ex>rae</ex>termissis omonymis separatim uersantibus atque sinonymis. De commixta ex illis specie solummodo sua i<supplied>u</supplied>nctim tractabo, quia, quicquid in aliis duabus prioribus p<ex>er</ex>seuerat, omnino in tertia ab ipsis composita p<ex>er</ex>man<ex>et</ex>. Id est, in primo uidelic<ex>et</ex> loco appellatiua nomina habitant,<note><ref target="#cross-reference11">See above, Chapter ii, 94.</ref></note> in secundo clarissimorum paganorum propria,<note><ref target="#cross-reference12">See above, Chapter ii, 98.</ref></note> in tertio christianorum cum suo - immo <ex>et</ex> uerius omnium - principe;<note><ref target="#cross-reference13">See above, Chapter ii, 101.</ref></note> in quarto quoque loco nomina ponderu<ex>m</ex> mensurarumque sequuntur.<note><ref target="#cross-reference14">See above, Chapter ii, 107.</ref></note>
+               </p>
+               <p n="5">
+                  Postquam communiter nomina r<ex>et</ex>ulimus, singulatim mox ea diligenter referemus.
+               </p>
+               <p n="6" xml:id="cross-reference25">
+                  Fastus, unum nomen, dum diuersas res, hoc est superbiam <ex>et</ex> librum, quando in quarta declinatione librum contingit significare, demonstrat, omonymum sine dubio fore ostenditur, ut magistratus, exercitus <ex>et</ex> saltus.<note type="source">For the latter three homonyms and the fourth declension, see Priscianus, <title>Institutio de nomine et pronomine et verbo</title>, ed. <ref target="#passalacqua-1987">Passalacqua 1999</ref>, ii, 9. The same content, however, also occur in Priscianus, <title>Institutionum grammaticarum lib.</title> VI 71-2, ed. <ref target="#keil-1855">Keil/Hertz 1855</ref>, ii, 256, where they are more explicitly labelled as <foreign>homonyma</foreign> and followerd by a discussion of <foreign>fastus</foreign>, making them clearly the more likely nsource here, even though Dicuil knew <title>De nomine</title>, to which he had referred before in his poem on Priscian's <title>Partitiones</title>, ed. <ref target="#keil-1859">Keil 1859</ref>, iii, 390 (<foreign>... parvumque volumen, quod fecit pueris, de partibus ante quaternis ...</foreign>.</note> Sed cum fastus, liber, codex <ex>et</ex> uolumen uaria nomina eandem causam significant, certum, quod fastus sinonymum p<ex>er</ex>seuerat.
+               </p>
+               <p n="7">
+                  Uates nomen sacerdotem proph<ex>et</ex>am po<ex>et</ex>amque manifestans omonymum est. Sed uates <ex>et</ex> sacerdos aut uates proph<ex>et</ex>aque uel uates atque po<ex>et</ex>a sinonyma sunt.
+               </p>
+               <p n="8" xml:id="cross-reference6">
+                  Acies oculi aut exercitus uel ferri, ut ait donatus, omonymum man<ex>et</ex>.<note type="source">Donat, <foreign>Ars maior</foreign> III 3, ed. <ref target="#holtz-1981">Holtz 1981</ref>, p. 660, ll 4-5: <foreign>Fit et per homonyma, ut si quis aciem dicat et non addat oculorum aut exercitus aut ferri.</foreign></note> Acies uero atque mucro, dum cuiusque acumen ferri communiter reuelant, sinonyma conp<ex>re</ex>henduntur e<ex>ss</ex>e.
+               </p>
+               <p n="9">
+                  Aries machina bellicosa, id est magnum lignum ad frangendos muro<supplied>s</supplied> impulsum, primu<ex>m</ex> signum soziaci circuli <ex>et</ex> ouinus aries omonymu<ex>m</ex> nomen est. Uere aries ueruexque sinonyma sunt.
+               </p>
+               <p n="10" xml:id="cross-reference5">
+                  Nepos filius filii seu filiae atque iuxta palemonem filius fratris<note type="source">Quintus Remmius Palaemon, d. 76 CE, was a grammarian whose work is lost. Among others, Isidore and Priscian mention him, but no reference in the context of <foreign>nepos</foreign> could be found. It is worth noting that the poem of Remmius Favinus, <title>Gedicht</title>, ed. and trans. <ref target="#geus-2007">Geus 2007</ref>, p. 10, was sometimes misattributed to Palaemon. Dicuil, however, attributed it to <foreign>Remus Fauinus</foreign>.</note> et nepos speciale genus <milestone unit="folio" n="13v" source="#ms-P" facs="https://gallica.bnf.fr/ark:/12148/btv1b10032215p/f28.item"/>scorpionum<note type="source">Isidorus, <title>Etymologiarum lib.</title> X 193, ed. <ref target="#lindsay-1911">Lindsay 1911</ref>, i: <foreign>Nepos dictus a genere quodam scorpionum qui natos suos consumit, excepto eum, qui dorso eius insiderit; nam rursus ipse qui servatus fuerit consumit patrem: unde homines qui bona parentum per luxuriam consumunt nepotes dicuntur.</foreign></note> neposque prodigus omonymum nomen, at nepos at<note>This <foreign>at</foreign> has to be understood as <foreign>ac</foreign> or <foreign>atque</foreign>. While it is tempting to emend it or to read the <foreign>t</foreign> as a <foreign>c</foreign>, this spelling is common throughout both manuscripts of <title>De cursu solis lunaeque</title> (see the introduction to the edition by <ref target="#schweizer-2023">Schweizer 2023</ref>, p. CII). This indicates that Dicuil or a scribe of the archetype had a tendency to misspell it or to write <foreign>c</foreign> in a misleading way, or that Dicuil actively used <foreign>at</foreign> in this sense. As <foreign>ast</foreign> is also used in this way, which speaks for the latter explanation.</note> p<ex>ro</ex>digus sinonyma.
+               </p>
+               <p n="11">
+                  Ast, si quisquis ingeniosus praecedentia sequentiaque huius speciei nomina intellectualiter intimauerit, alia suptilia in <app>
+                     <lem>aliquibus</lem>
+                     <rdg>ali'quibus</rdg>
+                  </app> ex ipsis inueni<ex>et</ex>; quae in hoc nomine pro exemplo docebo, ut diligens lector similia in aliis reperiat. Nepos <ex>et</ex>enim in p<ex>rae</ex>dictis significationibus tribus omonymum est. Sed non illis omnibus sinonymum fore poterit. Namque nepos, quando prodigum significat, sinonymum est, quia diuersa sunt nomina quae unum intellectum manifestant. Sed, cum tertiam generationem sobolis humanę siue speciale <app>
+                     <lem>scorpionis</lem>
+                     <rdg>serpentis</rdg>
+                  </app><note>This is probably a scribal mistake, cf. <foreign>genus scorpionum</foreign> <ref target="#cross-reference8">above in the preceding paragraph</ref>. The passage of Isidore's <title>Etymologiae</title>, referenced there and almost certainly Dicuil's source, corroborates that he wrote about scorpions rather than snakes here.</note> genus declarat, sinonymum fieri non ual<ex>et</ex>. Nam in eis sensibus nepos iunctum nomen alterum possidere nequibit. Ideo, sicut praedixi,<note>See the previous content of this paragraph.</note> in appellatiuis nominibus istis <app><lem>quisquam</lem><rdg>quis piam</rdg></app> haec eadem intelligere uoluerit, caute p<ex>rae</ex>uidere debebit.
+               </p>
+               <p n="12">
+                  Sed econtrario, si omonymum ac sinonymum pariter nomen fuerit, in ratione omonymorum numquam deficere poterit. Nam, si deficere ualuiss<ex>et</ex>, non illud nomen ess<ex>et</ex>, quia <add>u</add>num nomen <ex>est</ex><note>The abbreviation used here, <foreign>÷</foreign>, is notable and possibly a sign of Insular influence.</note> uarios significans sensus, nisi tantum, si genus uel terminatione<ex>m</ex> inter numeros mutauerit, aut, si unius numeri fuerit in altero deficiens, quod postea in suo loco conuenienter dic<ex>et</ex>ur.<note><ref target="#s06">See Chapter v.</ref></note>
+               </p>
+               <p n="13">
+                  Aemul<unclear><ex>us</ex></unclear>, dum sit zelator, simulator <ex>et</ex> hostis omonymum. Aemulus, inimicus <ex>et</ex> hostis sinonyma. Sacer consecratus <ex>et</ex> abominabilis omonymum. At sacer <ex>et</ex> mundus sinonyma. Sic <del><ex>et</ex></del> aemulus <ex>et</ex> sacer, si aliis iungantur nominibus hic praedictis, ostendunt sinonyma.
+               </p>
+               <p n="14">
+                  Corus cantantium in sacris collecta <app><lem>multitudo</lem><rdg>multitu'do</rdg></app> locis <ex>et</ex> regalis exercitus flansque uentus ab occidente aestiuo atque <milestone unit="folio" n="14r" source="#ms-P" facs="https://gallica.bnf.fr/ark:/12148/btv1b10032215p/f29.item"/>hebrea mensura triginta modiorum, id est onus cameli, ut nuntiaui,<note><ref target="#cross-reference26">See above, Chapter ii, 49.</ref></note> capiens omonymum, sed corus, co<ex>et</ex>us, choors, agmen, ala <ex>et</ex> grece palanx chorogiumque sinonyma. Q<ex>uonia</ex>m chorus cum aspiratione<note>The <foreign>a</foreign> is possibly but not necessarily cancelled in the MS, correcting this to <foreign>spiratione</foreign>.</note> musicum nomen grecum <app>
+                     <lem>est.</lem><!-- editorial -->
+                     <rdg>ēst (=estst)</rdg><!-- MS reading -->
+                  </app> At haec quinque nomina in prima corripiunt<ex>ur</ex> syllaba, nisi solum nomen uenti.
+               </p>
+               <p n="15" xml:id="cross-reference28">
+                  As libram siue unam ponderans untiam omonymum; as <ex>et</ex> pondo sinonyma, similiter as atque libra. Exercitus significando choortem cultumque omonymum; rurs<ex>us</ex><note>The unusual abbreviation <foreign>rurs;</foreign> is used here.</note> exercitus, co<ex>et</ex>us, agmen sinonyma. Ala choortem ac penna<ex>m</ex> alitis demonstra<add>n</add>s <supplied>omonymum</supplied>; iterum ala, phalanx sinonyma. Summa numeru<ex>m</ex> sublimemque comprehendendo omonymum; sed summa, numerus, co<ex>m</ex>potus calculusque sinonyma. Fori pluraliter nom<ex>en</ex> uarias significationes habens, hoc est locum mercandi <ex>et</ex> locu<ex>m</ex> exprim<ex>en</ex>di uini ac transtra nauium <ex>et</ex> plana spatia, id est concaua latera atque tabulata earu<ex>m</ex>, omonymu<ex>m</ex>.<note type="source">Cf., also for the following verse, Isidorus, <title>Etymologiarum lib.</title>  XV vi 8, ed. <ref target="#lindsay-1911">Lindsay 1911</ref>, ii, also for the following: <foreign>Forus est locus ubi uva calcatur, dictus quod ibi feratur uva, vel propter quod ibi pedibus feriatur: unde et calcatorium dicitur. Sed hoc nomen multa significat: prima species fori locus in civitate ad exercendas nundinas relictus; secunda, ubi magistratus iudicare solet; tertia, quem supra diximus, quem calcatorium nominavimus. Quarta, spatia plana in navibus, de quibus Vergilius (Aen. 6,412): Laxatque foros. Lacus dictus quia ibi decurrit frugum liquor.</foreign></note> Aequaliter in singulari numero, nisi quando partes nauium uel transtra significat. Tunc enim genus atque terminationem motat. Fori transtraque sinonyma, sic forus <ex>et</ex> mercatum, ita forus <ex>et</ex> calcatorium. Ambitus significando desiderium <ex>et</ex> circuitum omonymu<ex>m</ex>; sed ambitus ac desiderium siue ambitus <ex>et</ex> circuitus sinonyma. Saltus, ut priscianus ostendit, omonymu<ex>m</ex>,<note type="source">Priscianus, <title>Institutio de nomine et pronomine et verbo</title>, ed. <ref target="#passalacqua-1987">Passalacqua 1999</ref>, ii, 9, ll 12-3: <foreign>... hic saltus (ἡ πήδησις καί ἡ νάπη) huius saltus.</foreign> Exactly the same content also occurs in Priscianus, <title>Institutionum grammaticarum lib.</title> VI 71, ed. <ref target="#keil-1855">Keil/Hertz 1855</ref>, ii, 256. As demonstrated <ref target="#cross-reference25">above in a note to Chapter iiii, 6</ref>, Dicuil clearly appears to have consulted the latter for this. The two meanings of the homonym, ‘leap’ and ‘forest’, are expressed in Greek here, which might be an indication of Dicuil having some basic understanding of this language, but he might also have relied on a glosse or other help; in the <title>Institutiones</title>, the list of homonyms is also clearly introduced as such in Latin. Cf. Dicuil's remark that he only knew Latin and his native tongue in <title>De prima syllaba</title>, vv 20-25, ed. <ref target="#manitius-1911-12">Manitius 1911/12</ref>, p. 125.</note> cum sint saltus ac silua sinonyma.
+               </p>
+               <p n="16">
+                  Tonus accentus <ex>et</ex> secundu<ex>m</ex> quosda<ex>m</ex> philosophos spatia aeris a terra usque ad lunam centum uiginti quinque<note type="source">Cf. Dicuil, <title>De cursu</title>, II i, ed. and trans. <ref target="#schweizer-2023">Schweizer 2023</ref>, pp 63-66, where Dicuil clearly appears to prefer 126,000 over 125,000 <foreign>stadiae</foreign>. This is mainly based on Plinius, <title>Naturalis historiae lib.</title> II, 21(19)-22(20)/83-4, ed. <ref target="#mayhoff-1875">Mayhoff 1875</ref>, i, 153-4; the numbers differ among different manuscripts and excerpts.</note> stadiorum milia omonymum. Tonus, tenor, accentus sinonyma. Mare nominatur magnus communiter pontus; <ex>et</ex> mare galileae dicitur, cum habilis ac dulcis aqua sit ad potandu<ex>m</ex>, p<ex>er</ex> qua<ex>m</ex> fluuius iordanes <milestone unit="folio" n="14v" source="#ms-P" facs="https://gallica.bnf.fr/ark:/12148/btv1b10032215p/f30.item"/>interfluit, mareque mortuum autque mare iuxta<note>The text here and in the same area of the following lines is partly faint.</note> templum d<ex>omi</ex>ni aeneum<note type="source">Cf. 4 kings 25, 13.</note> ac<note>This might also be an <foreign>at</foreign>: <ref target="#cross-reference5">see above.</ref></note> mare figuraliter in apocalypsi uitreum:<note type="source">Cf. Revelation 15, 2.</note> omonymum. Sed mare oceanus, aequor, pontus, pelagus sinonyma. Mucro monstrando frameam <ex>et</ex> aciem uniuscuiusque ferri, ut prędixi, omonymum.<note><ref target="#cross-reference6">See above.</ref></note> Iam rursus mucro, framea, rumphea sinonyma. Rostrum proram nauis <ex>et</ex> os auis nomina<unclear>ns</unclear> omonymum uocabulum p<ex>er</ex>seuerat. Rostrum atque prora, dum unam rem nuncupant, synonyma p<ex>er</ex>manent.
+               </p>
+            </div>
+            <div type="section" xml:id="s06" n="Chapter v">
+               <head>v <supplied>De omonymis solummodo in diuersis causis inuentis</supplied></head>
+               <p n="1">
+                  <milestone unit="folio" n="14v l. 8" source="#ms-P" facs="https://gallica.bnf.fr/ark:/12148/btv1b10032215p/f30.item"/>
+                  Stagnu<ex>m</ex> appellando aquam m<ex>et</ex>allumque liquidum in singulari numero omonymum.
+               </p>
+               <p n="2">
+                  Sed hoc in plurali deficit omonymum fieri, sicut fori tantummodo nauium in si<add>n</add>gulari <ex>et</ex> forus contionandi in plurali.
+               </p>
+               <p n="3">
+                  Hoc propter defiecienten numeru<ex>m</ex> iam pluralem, illa <del>ne</del> ob neutrum genus ac terminationem in uno singularem, in altero pluralem.<note>In the manuscript, <foreign>in altero plurale<ex>m</ex></foreign> can be found a second time after this, in faint script.</note>
+               </p>  
+            </div>
+         </div>    
+		</body>
+	</text>
+</TEI>

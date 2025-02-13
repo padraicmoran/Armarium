@@ -1,0 +1,39 @@
+body {
+	font-family: Roboto, sans-serif;
+	font-size: 1.22em;
+}
+
+a {
+	color: #78726c;
+}
+
+.hanging-indent {
+	padding-left: 2em;
+	text-indent: -2em;
+}
+
+.outside-margin {
+	position: absolute;
+	left: -35px;
+	user-select: none; /* Prevent copying line numbers */
+}
+
+.text-medium-light {
+	color: #a79c91;
+}
+
+
+/* printer-friendly styles */
+
+@media print {
+	body {
+		font-family: Roboto, sans-serif;
+		font-size: 0.8em;
+	}
+
+	.container {
+	  max-width: 100% !important;
+	  width: 100% !important;
+	}
+ }
+ 
