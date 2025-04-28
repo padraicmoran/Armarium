@@ -1,5 +1,5 @@
 # Armarium
 
-Armarium is a Open Access, Open Source publishing platform for scholarly digital editions that emphasises simple technical implementation, readable texts, quality assurance, long-term accessibility and citability. 
+ Armarium is an Open Access, Open Source publishing platform for scholarly digital editions. It emphasises simple technical implementation, long-term preservation, citability, readability, and quality assurance.
 
 [Documetation to follow]

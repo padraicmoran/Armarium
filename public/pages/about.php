@@ -104,7 +104,7 @@ To that end, the technical barrier is kept as low as possible.
 <h2 id="technical" class="fw-light pt-5 mt-5 mb-5">Credits and technical information</h2>
 
 <p>Armarium is managed and developed by <a href="https://www.pmoran.ie/" target="_blank">Pádraic Moran</a>, University of Galway.
-All of the source code and data files are fully accessible on <a href="#">GitHub</a>.
+All of the source code and data files are fully accessible on <a href="https://github.com/padraicmoran/Armarium" target="_blank">GitHub</a>.
 </p>
 
 <p>For advice about publishing an edition, contact Pádraic at <a href="mailto:padraic.moran@universityofgalway.ie">padraic.moran@universityofgalway.ie</a>.
