@@ -1,0 +1,7 @@
+
+RewriteEngine on
+RewriteRule ^(about)/?$ index.php?page=$1
+
+RewriteRule ^data/([a-z\-]*).xml/?$ download.php?p=$1.xml
+
+

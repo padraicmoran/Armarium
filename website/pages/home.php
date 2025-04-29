@@ -15,7 +15,7 @@
 						and quality assurance.
 					</p>
 
-					<p class="mb-4"><a class="btn btn-primary my-2" href="?page=about">More about Armarium</a></p>
+					<p class="mb-4"><a class="btn btn-primary my-2" href="/about">More about Armarium</a></p>
 
 			</div>
 			<div class="col-lg-6 col-md-5 bg-secondary" style="background-image: url('/pages/images/Galla-Placidia-armarium.jpg'); background-position: left bottom; background-size: 170%; ">
