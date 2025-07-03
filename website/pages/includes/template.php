@@ -73,7 +73,7 @@ function template02() {
 function template03() {
 ?>
 
-<footer class="bg-secondary mt-5 py-5 text-light">
+<footer class="bg-secondary mt-5 py-5 text-light d-print-none">
   <div class="container">
 		<div class="row">
 			<div class="col-md-6 mb-3 fw-light">
