@@ -1,9 +1,9 @@
 <main>
 
 	<!-- Introduction to site -->
-	<section class="text-center container-fluid border-bottom shadow-sm">
+	<section class="text-center container-fluid border-bottom">
    	<div class="row">
-			<div class="col-lg-6 col-md-7 p-5" style="background-color: #d9d3b3;">
+			<div class="col-lg-6 col-md-7 p-5" style="background-color: #c3dae0;">
 					<h1 class="mt-4 mb-4 display-6">Simple, high-quality digital editions</h1>
 					<p class="text-muted px-4">
 						Armarium is an Open Access, Open Source publishing platform for scholarly digital editions.
@@ -15,7 +15,7 @@
 						and quality assurance.
 					</p>
 
-					<p class="mb-4"><a class="btn btn-primary my-2" href="/about">More about Armarium</a></p>
+					<p class="mb-4"><a class="btn btn-secondary my-2" href="/about">More about Armarium</a></p>
 
 			</div>
 			<div class="col-lg-6 col-md-5 bg-secondary" style="background-image: url('/pages/images/Galla-Placidia-armarium.jpg'); background-position: left bottom; background-size: 170%; ">

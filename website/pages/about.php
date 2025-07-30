@@ -81,6 +81,16 @@ To that end, the technical barrier is kept as low as possible.
 	This will support the long-term stability of the web resource.	
 </p>
 
+<p>Data meets the <a target="_blank" href="https://www.go-fair.org/fair-principles/">FAIR principles</a> as far as possible. These involve ensuring that editions are:
+	</p>
+
+<ul>
+<li>Findable, with unique and persistent identifiers (DOI and website URL), rich metadata (in both TEI XML and Dublin Core HTML meta tags) containing also the identifiers, and available in other searchable resources (e.g. GitHub, optionally Zenodo).</li>
+<li>Accessible, via a secure internet protocol (https), freely.</li>
+<li>Interoperable, via TEI XML, a widely recognised semantic mark-up.</li>
+<li>Reusable, under an explicit licence (usually the Creative Commons Attribution 4.0 International License).</li>
+</ul>
+
 <h2 id="citability" class="h3 mt-5 fw-light">3. Citability</h2>
 <p>Editors deserve full and clear recognition for their work. 
 	Each edition is presented with a recommended citation formula at the head of every page.
@@ -107,8 +117,6 @@ To that end, the technical barrier is kept as low as possible.
 All of the source code and data files are fully accessible on <a href="https://github.com/padraicmoran/Armarium" target="_blank">GitHub</a>.
 </p>
 
-<p>For advice about publishing an edition, contact Pádraic at <a href="mailto:padraic.moran@universityofgalway.ie">padraic.moran@universityofgalway.ie</a>.
-</p>
 
 
 				 

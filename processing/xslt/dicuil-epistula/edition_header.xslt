@@ -40,13 +40,15 @@
                     <xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type='DOI']"/>
                 </a>
             </div>
-            <!-- Links -->
-            <div class="mt-2 d-print-none">
-                <a>
-                    <xsl:attribute name="href">/data/<xsl:value-of select="tei:TEI/@xml:id"/>.xml</xsl:attribute>
-                    Download XML
-                </a>
-            </div>
+            <!-- Info and links -->
+            <ul class="mt-2 d-flex flex-column flex-lg-row gap-lg-4 small link-list">
+                <li>Published <xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:date"/></li>
+                <li class="d-print-none"><a href="{tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type='URL']}">Persistent URL</a></li>
+                <li class="d-print-none"><a href="https://doi.org/{tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type='DOI']}">DOI</a></li>
+                <li class="d-print-none"><a href="/data/{tei:TEI/@xml:id}.xml">Download TEI XML</a></li>
+                <li class="d-print-none"><a href="{tei:TEI/@xml:id}.pdf">Download PDF</a></li>
+                <li class="d-print-none"><a target="_blank" href="{tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability//tei:ref/@target}">Licence</a></li>
+            </ul>
 
             <form method="get" id="formTOC" class="mt-3 col-lg-6 d-print-none">
                 <div class="form-floating">

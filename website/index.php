@@ -1,10 +1,11 @@
 <?php
 require 'functions/core.php';
+
 template01();
 require 'pages/includes/metadata_general.htm';
-template02();
 
-$page = cleanInput('page') ?? '';
+$page = cleanInput('page') ?? 'home';
+template02($nav, $page);
 
 // Page routing
 switch($page) {
@@ -12,7 +13,11 @@ switch($page) {
 		require('pages/about.php');
 		break;
 
-	default:
+	case 'editorial':
+		require('pages/editorial.php');
+		break;
+
+		default:
 		// default to home page
 		require('pages/home.php');
 		break;

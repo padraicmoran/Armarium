@@ -2,7 +2,7 @@
 require '../../functions/core.php';
 template01();
 require 'metadata.htm';
-template02();
+template02($nav, '');
 
 // get page choice
 $section = cleanInput('sec') ?? '';
@@ -11,7 +11,7 @@ $section = cleanInput('sec') ?? '';
 <main class="pb-5">
 
 	<!-- Edition header -->
-	<section style="background-color: #d9d3b3;">
+	<section style="background-color: #c3dae0;">
 <?php
 require 'edition_header.htm';
 ?>

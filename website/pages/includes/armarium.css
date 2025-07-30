@@ -4,7 +4,10 @@ body {
 }
 
 a {
-	color: #78726c;
+	color: #304f63;
+}
+sup {
+	font-size: 1rem !important;
 }
 
 .hanging-indent {
@@ -21,7 +24,6 @@ a {
 .text-medium-light {
 	color: #a79c91;
 }
-
 
 /* printer-friendly styles */
 

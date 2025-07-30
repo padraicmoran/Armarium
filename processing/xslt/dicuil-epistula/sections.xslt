@@ -14,7 +14,7 @@
             <!-- Separate file for each section -->
             <xsl:result-document href="output/content/{@xml:id}.htm">
                 <!-- Main layout -->
-                <div class="row gx-5">
+                <div class="row gx-5 edition-section">
                     <div class="col-1"></div>
                     <div class="col-md-8 position-relative">
                         <xsl:apply-templates select="*"/>
@@ -121,11 +121,11 @@
     <!-- h3: content section (intro or edition) -->
     <xsl:template match="tei:body/tei:div/tei:div/tei:head">
         <xsl:if test="@n"><!-- presumably intro if numbered -->
-            <h3 id="{concat('#intro-', @n)}" 
-                class="pt-5 pb-2"><xsl:value-of select="concat(@n, ' ', .)"/></h3>
+            <h2 id="{concat('#intro-', @n)}" 
+                class="pt-5 pb-2"><xsl:value-of select="concat(@n, ' ', .)"/></h2>
         </xsl:if>
         <xsl:if test="not(@n)"><!-- intro or edition; allow apply-templates for MS mark-up -->
-            <h3><xsl:apply-templates/></h3>
+            <h2><xsl:apply-templates/></h2>
         </xsl:if>
     </xsl:template>
 
@@ -252,17 +252,17 @@
     </xsl:template>
 
     <!-- MS transcription -->
-    <xsl:template match="tei:add"><sup><ins href="javascript:void(0);" class="text-reset text-decoration-none" data-bs-toggle="tooltip" title="Secondary addition in MS"><xsl:apply-templates/></ins></sup></xsl:template>
-    <xsl:template match="tei:corr"><span class="text-secondary small">(= <a href="javascript:void(0);" class="text-reset text-decoration-none" title="Editorial correction" data-bs-toggle="tooltip"><xsl:apply-templates/></a>)</span></xsl:template>
-    <xsl:template match="tei:del"><del href="javascript:void(0);" class="text-reset text-decoration-line-through"  title="Text cancelled in manuscript" data-bs-toggle="tooltip"><xsl:apply-templates/></del></xsl:template>
-    <xsl:template match="tei:ex|tei:expan"><a href="javascript:void(0);" class="text-reset text-decoration-none" title="Editorial expansion" data-bs-toggle="tooltip"><i><xsl:apply-templates/></i></a></xsl:template>
+    <xsl:template match="tei:add"><sup><ins class="text-decoration-none" data-bs-toggle="tooltip" title="Secondary addition in MS"><xsl:apply-templates/></ins></sup></xsl:template>
+    <xsl:template match="tei:corr"><span class="text-secondary small">(= <span title="Editorial correction" data-bs-toggle="tooltip"><xsl:apply-templates/></span>)</span></xsl:template>
+    <xsl:template match="tei:del"><del class="text-reset text-decoration-line-through"  title="Text cancelled in manuscript" data-bs-toggle="tooltip"><xsl:apply-templates/></del></xsl:template>
+    <xsl:template match="tei:ex|tei:expan"><span title="Editorial expansion" data-bs-toggle="tooltip"><i><xsl:apply-templates/></i></span></xsl:template>
     <xsl:template match="tei:g"><span class="border p-1 small text-secondary"><xsl:apply-templates/></span></xsl:template>  
-    <xsl:template match="tei:gap"><span class="text-secondary">[<a href="javascript:void(0);" class="text-reset text-decoration-none" data-bs-toggle="tooltip"><xsl:attribute name="title">Gap in editorial transcription: <xsl:value-of select="@extent"/> <xsl:value-of select="@reason"/></xsl:attribute>...</a>]</span></xsl:template>
+    <xsl:template match="tei:gap"><span class="text-secondary">[<span data-bs-toggle="tooltip"><xsl:attribute name="title">Gap in editorial transcription: <xsl:value-of select="@extent"/> <xsl:value-of select="@reason"/></xsl:attribute>...</span>]</span></xsl:template>
     <xsl:template match="tei:lb"><span class="text-secondary small">|</span></xsl:template>
     <xsl:template match="tei:sic"><xsl:apply-templates/><span class="text-secondary small"> (<i>sic</i>)</span></xsl:template>
-    <xsl:template match="tei:space"><span class="text-secondary">[<a href="javascript:void(0);" class="text-reset text-decoration-none" data-bs-toggle="tooltip"><xsl:attribute name="title">Space left in MS: <xsl:value-of select="@extent"/></xsl:attribute>_</a>]</span> </xsl:template>
-    <xsl:template match="tei:supplied"><span class="text-secondary">&lt;<a href="javascript:void(0);" class="text-reset text-decoration-none" title="Text supplied by editor" data-bs-toggle="tooltip"><xsl:apply-templates/></a>&gt;</span></xsl:template>
-    <xsl:template match="tei:surplus"><span class="text-secondary small">(</span><a href="javascript:void(0);" class="text-reset text-decoration-none" title="Text marked as redundant by editor" data-bs-toggle="tooltip"><xsl:apply-templates/></a><span class="text-secondary">)</span></xsl:template>
-    <xsl:template match="tei:unclear"><span class="text-secondary small">[</span><a href="javascript:void(0);" class="text-reset text-decoration-none" title="Reading unclear" data-bs-toggle="tooltip"><xsl:apply-templates/><span class="text-secondary"><sup>?</sup></span></a><span class="text-secondary small">]</span></xsl:template>
+    <xsl:template match="tei:space"><span class="text-secondary">[<span data-bs-toggle="tooltip"><xsl:attribute name="title">Space left in MS: <xsl:value-of select="@extent"/></xsl:attribute>_</span>]</span> </xsl:template>
+    <xsl:template match="tei:supplied"><span class="text-secondary">&lt;<span title="Text supplied by editor" data-bs-toggle="tooltip"><xsl:apply-templates/></span>&gt;</span></xsl:template>
+    <xsl:template match="tei:surplus"><span class="text-secondary small">(</span><span title="Text marked as redundant by editor" data-bs-toggle="tooltip"><xsl:apply-templates/></span><span class="text-secondary">)</span></xsl:template>
+    <xsl:template match="tei:unclear"><span class="text-secondary small">[</span><span title="Reading unclear" data-bs-toggle="tooltip"><xsl:apply-templates/><span class="text-secondary"><sup>?</sup></span></span><span class="text-secondary small">]</span></xsl:template>
    
 </xsl:stylesheet>

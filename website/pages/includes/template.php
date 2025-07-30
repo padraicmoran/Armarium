@@ -15,7 +15,7 @@ function template01() {
 }
 
 // After meta data, down to nav
-function template02() {
+function template02($nav, $page) {
 ?>
 	<!-- Libraries -->
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -54,12 +54,16 @@ function template02() {
 			<!-- menu options -->
 			<div class="collapse navbar-collapse d-print-none" id="navbarNav">
 				<ul class="navbar-nav ms-auto me-5 px-5">
-					<li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="/">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="/about">About</a>
-					</li>
+<?php
+  foreach ($nav as $item) {
+    if ($item[0] == $page) {
+      echo '<li class="nav-item"><a class="nav-link me-2 active" aria-current="page" href="' . $item[2] . '">' . $item[1] . '</a></li>';
+    } 
+    else {
+      echo '<li class="nav-item"><a class="nav-link me-2" href="' . $item[2] . '">' . $item[1] . '</a></li>';
+    }
+  }
+?>
 				</ul>
 			</div>
 		</div>
@@ -103,6 +107,24 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 })
 
 </script>
+
+<!-- Default Statcounter code for Armarium
+https://armarium.universityofgalway.ie/ -->
+<script type="text/javascript">
+var sc_project=13154911; 
+var sc_invisible=1; 
+var sc_security="8d89774a"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/13154911/0/8d89774a/1/"
+alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
 
 </body>
 </html>

@@ -17,23 +17,64 @@
       </title>
 
       <!-- Metadata -->
-      <meta name="description" lang="en">
-         <xsl:attribute name="content"><xsl:value-of select="tei:TEI/tei:teiHeader/tei:profileDesc/tei:abstract/tei:p"/></xsl:attribute>
-      </meta>
-      <meta name="DC.title" lang="en">
-         <xsl:attribute name="content"><xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/></xsl:attribute>
-      </meta>
-      <meta name="DC.description" lang="en">
-         <xsl:attribute name="content"><xsl:value-of select="tei:TEI/tei:teiHeader/tei:profileDesc/tei:abstract/tei:p"/></xsl:attribute>
-      </meta>
-      <meta name="DC.creator" content="">
-         <xsl:attribute name="content"><xsl:value-of select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:editor"/></xsl:attribute>
-      </meta>
-      <meta name="DC.publisher" content="Armarium"></meta>
+      <xsl:text>
+      </xsl:text><!-- line break -->
+      <xsl:comment>Title and creator</xsl:comment>
+      <xsl:text>
+      </xsl:text><!-- line break -->
+      <meta name="DC.title" lang="en" content="{tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author}, {tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title}"></meta>
+
+      <xsl:text>
+      </xsl:text><!-- line break -->
+      <meta name="DC.creator" content="{tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:editor}"></meta>
+
+      <xsl:text>
+      </xsl:text><!-- line break -->
+      <meta name="DC.creator" content="{tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:editor/@ref}"></meta>
+
+      <xsl:text>
+      </xsl:text><!-- line break -->
+      <xsl:comment>Subject, description, publisher</xsl:comment>
+      <xsl:text>
+      </xsl:text><!-- line break -->
+      <meta name="DC.subject" lang="en" content="Digital editions of medieval texts"></meta>
+
+      <xsl:text>
+      </xsl:text><!-- line break -->
+      <meta name="DC.description" lang="en" content="{tei:TEI/tei:teiHeader/tei:profileDesc/tei:abstract/tei:p}"></meta>
+
+      <xsl:text>
+      </xsl:text><!-- line break -->
+      <meta name="description" lang="en" content="{tei:TEI/tei:teiHeader/tei:profileDesc/tei:abstract/tei:p}"></meta>
+
+      <xsl:text>
+      </xsl:text><!-- line break -->
+      <meta name="DC.publisher" content="Armarium Digital Editions"></meta>
+
+      <xsl:text>
+      </xsl:text><!-- line break -->
+      <xsl:comment>Other</xsl:comment>
+      <xsl:text>
+      </xsl:text><!-- line break -->
+      <meta name="DC.identifier" content="https://doi.org/{tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type='DOI']}"></meta>
+
+      <xsl:text>
+      </xsl:text><!-- line break -->
+      <meta name="DC.identifier" content="{tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type='URL']}"></meta>
+      <xsl:text>
+      </xsl:text><!-- line break -->
+      <meta name="DC.rights" content="{tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability//tei:ref/@target}"></meta>
+
+      <xsl:text>
+      </xsl:text><!-- line break -->
       <meta name="DC.type" content="Text"></meta>
+
+      <xsl:text>
+      </xsl:text><!-- line break -->
       <meta name="DC.format" content="text/html"></meta>
-      <meta name="DC.coverage" content="Global"></meta>
-      <meta name="DC.source" content="University of Galway"></meta>
+
+      <xsl:text>
+      </xsl:text><!-- line break -->
       <meta name="DC.language" content="en_IE"></meta>
 
     </xsl:template>
