@@ -3,6 +3,6 @@ RewriteEngine on
 RewriteRule ^(about|editorial)/?$ index.php?page=$1
 
 RewriteRule ^data/([a-z\-]*).xml/?$ download.php?d=data&f=$1.xml
-RewriteRule ^docs/([A-Za-z_\-\.]*)$ download.php?d=docs&f=$1
+RewriteRule ^docs/([A-Za-z_\-]*).pdf/?$ download.php?d=docs&f=$1.pdf
 
 
