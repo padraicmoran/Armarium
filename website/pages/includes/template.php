@@ -80,15 +80,15 @@ function template03() {
 <footer class="bg-secondary mt-5 py-5 text-light d-print-none">
   <div class="container">
 		<div class="row">
-			<div class="col-md-6 mb-3 fw-light">
+			<div class="col-md-9 mb-3 fw-light">
 
-<b>Armarium Digital Editions</b>, <a class="text-reset" href="http://armarium.universityofgalway.ie">http://armarium.universityofgalway.ie</a><br>
-Developed by <a class="text-reset" href="https://www.pmoran.ie/" target="_blank">Pádraic Moran</a>, University of Galway<br>
+Pádraic Moran, <i>Armarium Digital Editions</i>, v1.0 (2025), <a class="text-reset" href="http://armarium.universityofgalway.ie">http://armarium.universityofgalway.ie</a><br>
 Archived on <a class="text-reset" href="https://github.com/padraicmoran/Armarium" target="_blank">GitHub</a>
+	and <a class="text-reset" href="https://doi.org/10.5281/zenodo.16605326" target="_blank">Zenodo</a>.	
 
 
 			</div>
-			<div class="col-md-6 text-end fw-light d-print-none">
+			<div class="col-md-3 text-end fw-light d-print-none">
 				<a href="#" class="text-reset">Back to top</a>
 			</div>
 		</div>

@@ -1,32 +1,52 @@
 <?php
-// Configuration
-$baseDir = realpath('../data'); // Base directory for XML files
+require 'functions/core.php';
 
-// Check and sanitize 'p' parameter
-if (!isset($_GET['p'])) {
+$dir  = cleanInput('d');
+$file = basename(cleanInput('f')); // strip path parts
+
+// Validate input
+if (!$dir || !$file) {
     http_response_code(400);
-    echo "No file path.";
-    exit;
+    exit('Invalid parameters.');
 }
 
-$requestedPath = $_GET['p'];
+$allowedDirs = ['data', 'docs'];
+if (!in_array($dir, $allowedDirs, true)) {
+    http_response_code(400);
+    exit('Invalid directory.');
+}
 
-// Normalize and sanitize path to prevent directory traversal
-$fullPath = realpath($baseDir . '/' . $requestedPath);
+$baseDir  = realpath(__DIR__ . '/../' . $dir);
+$fullPath = realpath($baseDir . '/' . $file);
 
 // Security checks
 if (
-    $fullPath === false ||                     // File doesn't exist
-    strpos($fullPath, $baseDir) !== 0 ||       // Escaped base directory
-    pathinfo($fullPath, PATHINFO_EXTENSION) !== 'xml' || // Not an XML file
-    !is_file($fullPath)                        // Not a regular file
+    $fullPath === false ||
+    strpos($fullPath, $baseDir) !== 0 ||
+    !is_file($fullPath)
 ) {
     http_response_code(404);
-    echo "XML file not found or access denied.";
-    exit;
+    exit('File not found.');
 }
 
-// Serve the XML file
-header('Content-Type: application/xml; charset=utf-8');
+// Restrict extensions
+$ext = strtolower(pathinfo($fullPath, PATHINFO_EXTENSION));
+$allowedExts = ['xml', 'pdf'];
+
+if (!in_array($ext, $allowedExts, true)) {
+    http_response_code(403);
+    exit('Only XML and PDF files are allowed.');
+}
+
+// MIME type headers
+$mimeTypes = [
+    'xml' => 'application/xml; charset=utf-8',
+    'pdf' => 'application/pdf',
+];
+
+header('Content-Type: ' . $mimeTypes[$ext]);
+header('Content-Disposition: inline; filename="' . basename($fullPath) . '"');
+header('Content-Length: ' . filesize($fullPath));
+
 readfile($fullPath);
 ?>

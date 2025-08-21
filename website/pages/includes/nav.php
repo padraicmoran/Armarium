@@ -3,7 +3,7 @@
 $nav = [
 	['home','Home', '/'],
 	['about','About', '/about'],
-//	['editorial','Editorial', '/editorial']
+	['editorial','Editorial', '/editorial']
 ];
 
 ?>

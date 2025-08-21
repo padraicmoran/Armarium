@@ -10,8 +10,8 @@ if ($debug) {
 	error_reporting(E_ALL);
 }
 
-require __DIR__ . '/nav.php';
 require __DIR__ . '/utils.php';
+require __DIR__ . '/../pages/includes/nav.php';
 require __DIR__ . '/../pages/includes/template.php';
 
 ?>
