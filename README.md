@@ -9,6 +9,8 @@ Armarium is an Open Access, Open Source publishing platform for scholarly digita
 
 * `data`: 
    * TEI XML files for each edition. 
+* `docs`: 
+   * Documentation for editial process and submissions.
 *  `processing`: 
    * XSL transformation files. 
    * Each edition will have its own set of files, to allow for customisations. The `dicuil-epistula` transformation files may be used as a basic template. 
